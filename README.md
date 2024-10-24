@@ -1,5 +1,6 @@
 <div align="center">
-<h1>I'm Daniel Tavares an ADS student</h1>
+  <h1><b>Hello There, I'm Daniel Tavares</b></h1>
+  <p><small>Software Developer | 1.5y experience</small></p>
 </div>
 <div align="center">
   <a href="https://github.com/DannyahIA">
