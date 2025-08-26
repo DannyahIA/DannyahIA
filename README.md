@@ -75,7 +75,7 @@
 
 ##  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=750&color=EB6F92&center=true&vCenter=true&repeat=false&width=800&lines=%F0%9F%93%AB+Let%E2%80%99s+Connect!)](https://git.io/typing-svg) 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=I’m+always+open+to+collaborating+on+new+ideas,+tackling+challenges,+or+just+chatting+about+development.)](https://git.io/typing-svg)   
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=I’m+always+open+to+collaborating+on+new+ideas,;tackling+challenges,+or+just+chatting+about+development.)](https://git.io/typing-svg)   
 
 <a href="https://www.linkedin.com/in/dannytavares/" target="_blank">
     <img alt="LinkedIn" height="30" width="30" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-128.png"/>
@@ -86,12 +86,16 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=Thanks+for+visiting!+Feel+free+to+explore+my+projects+and+see+what+I’m+currently+building.)](https://git.io/typing-svg)   
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=Thanks+for+visiting!;Feel+free+to+explore+my+projects+and+see+what+I’m+currently+building.)](https://git.io/typing-svg)   
 
 <p align="center">
     <img src="https://komarev.com/ghpvc/?username=DannyahIA&label=Profile%20views&color=0e75b6&style=flat" alt="darlanschmeller" />
 </p>
 
+</div>
+
+<div align="center">
+    <img src="https://github.com/DannyahIA/DannyahIA/blob/output/snake.svg" alt="github contribution snake animation" />
 </div>
 
 <div align="center">
