@@ -88,9 +88,9 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=Thanks+for+visiting!;Feel+free+to+explore+my+projects+and+see+what+I’m+currently+building.)](https://git.io/typing-svg)   
 
-<p align="center">
-    <img src="https://komarev.com/ghpvc/?username=DannyahIA&label=Profile%20views&color=0e75b6&style=flat" alt="darlanschmeller" />
-</p>
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=750&color=EB6F92&center=true&vCenter=true&random=true&width=800&lines=The+cake+is+a+lie!;Now+you%E2%80%99re+thinking+with+portals!;This+was+a+triumph!;Hollow+Knight!;Embrace+the+void!;Path+of+Pain!;You+are+not+alone!;Seek+the+King!;May+your+Hollow+be+filled!;Praise+the+Sun!;Prepare+to+Die!;Fear+the+Old+Blood!;Rise%2C+Undead!;Rest+at+the+bonfire!;Stay+determined!;The+right+man+in+the+wrong+place+can+make+all+the+difference.;Quick+fox+jumps+nightly+above+wizard;Would+you+kindly...%3F;Wake+up+and+smell+the+ashes.;It%E2%80%99s+dangerous+to+go+alone!+Take+this.;Finish+him!;Do+a+barrel+roll!;War+never+changes!;Nothing+is+true%2C+everything+is+permitted!;I+used+to+be+an+adventurer+like+you!;May+the+Force+be+with+you!;Hadouken!;STARS!;The+radio+is+making+static..;O+imposs%C3%ADvel+%C3%A9+s%C3%B3+o+improv%C3%A1vel+que+ainda+n%C3%A3o+aconteceu.;O+medo+alimenta+o+ritual.;Qual+o+maior+medo+de+todos%3F;You+mustn%E2%80%99t+run+away.;The+nightmare+begins.;Don%E2%80%99t+forget%3A+always+check+your+corners.;Save+room+for+healing+items.;The+truth+is+out+there.;How+is+Hell%3F;Pow!+Ha-ha!;Time+to+get+Jinxed!;Let%E2%80%99s+zap+them!;Heroes+never+die!+;The+hunt+begins.;I+am+inevitable.;Justice+rains+from+above!)](https://git.io/typing-svg)
 
 </div>
 
@@ -98,8 +98,7 @@
     <img src="https://github.com/DannyahIA/DannyahIA/blob/output/snake.svg" alt="github contribution snake animation" />
 </div>
 
-<div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=750&color=EB6F92&center=true&vCenter=true&random=true&width=800&lines=The+cake+is+a+lie!;Now+you%E2%80%99re+thinking+with+portals!;This+was+a+triumph!;Hollow+Knight!;Embrace+the+void!;Path+of+Pain!;You+are+not+alone!;Seek+the+King!;May+your+Hollow+be+filled!;Praise+the+Sun!;Prepare+to+Die!;Fear+the+Old+Blood!;Rise%2C+Undead!;Rest+at+the+bonfire!;Stay+determined!;The+right+man+in+the+wrong+place+can+make+all+the+difference.;Quick+fox+jumps+nightly+above+wizard;Would+you+kindly...%3F;Wake+up+and+smell+the+ashes.;It%E2%80%99s+dangerous+to+go+alone!+Take+this.;Finish+him!;Do+a+barrel+roll!;War+never+changes!;Nothing+is+true%2C+everything+is+permitted!;I+used+to+be+an+adventurer+like+you!;May+the+Force+be+with+you!;Hadouken!;STARS!;The+radio+is+making+static..;O+imposs%C3%ADvel+%C3%A9+s%C3%B3+o+improv%C3%A1vel+que+ainda+n%C3%A3o+aconteceu.;O+medo+alimenta+o+ritual.;Qual+o+maior+medo+de+todos%3F;You+mustn%E2%80%99t+run+away.;The+nightmare+begins.;Don%E2%80%99t+forget%3A+always+check+your+corners.;Save+room+for+healing+items.;The+truth+is+out+there.;How+is+Hell%3F;Pow!+Ha-ha!;Time+to+get+Jinxed!;Let%E2%80%99s+zap+them!;Heroes+never+die!+;The+hunt+begins.;I+am+inevitable.;Justice+rains+from+above!)](https://git.io/typing-svg)
+<p align="center">
+    <img src="https://komarev.com/ghpvc/?username=DannyahIA&label=Profile%20views&color=0e75b6&style=flat" alt="DannyahIA" />
+</p>
 
-</div>
