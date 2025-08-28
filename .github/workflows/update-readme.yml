@@ -21,8 +21,8 @@ jobs:
         run: python update_readme.py
       - name: Commit and push if changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'DannyahIA'
+          git config --global user.email 'danieltavares.mata@gmail.com'
           git add README.md
           git diff --cached --quiet || git commit -m 'Update experience time in README.md'
           git push
