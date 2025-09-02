@@ -18,6 +18,10 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&width=1000&height=100&multiline=true&lines=I'm+passionate+about+creating+scalable+solutions+and+exploring+new+technologies.;I+love+collaborating,+sharing+knowledge,+and+turning+ideas+into+reality.)](https://git.io/typing-svg)   
 
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
 </div>
 <div align="center">
 
