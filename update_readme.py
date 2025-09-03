@@ -2,7 +2,7 @@ import datetime
 import re
 
 README_PATH = "README.md"
-START_DATE = datetime.date(2023, 8, 15)
+START_DATE = datetime.date(2023, 6, 15)
 
 # Calculate experience time
 today = datetime.date.today()
