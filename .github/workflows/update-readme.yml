@@ -2,34 +2,33 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
+    - cron: '0 0 * * *' # Executa diariamente à meia-noite
   workflow_dispatch:
-  
-permissions:
-  contents: write
-  
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Upgrade pip
         run: pip install --upgrade pip
+
       - name: Run update script
         run: python update_readme.py
-      - name: Commit and push if changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m 'Update experience time in README.md'
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          git push
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update experience time in README.md'
+          file_pattern: README.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
