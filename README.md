@@ -12,7 +12,7 @@
 <div align="center">
 
 <!-- EXPERIENCE_START -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&random=true&width=800&lines=Experience:+2+years+and+1+months)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&random=true&width=800&lines=Experience:+2+years+and+2+months)](https://git.io/typing-svg)
 <!-- EXPERIENCE_END -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&repeat=false&pause=750&color=EB6F92&center=true&vCenter=true&random=true&width=800&lines=Junior+Software+Developer)](https://git.io/typing-svg)    
 
