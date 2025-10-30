@@ -9,6 +9,7 @@
  ### Backend Engineer (Go & Python) | Cloud & MLOps | AWS | Kubernetes
   
 _Focused on building high-performance, scalable backend systems and MLOps pipelines._ 
+
 _Creator of the [dynamic-json-converter](https://github.com/DannyahIA/dynamic-json-converter) for Pascal._
 
 </div>
