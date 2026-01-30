@@ -1,0 +1,44 @@
+{
+  "monthly_snapshots": [
+    {
+      "month": "2026-01",
+      "total_commits": 221,
+      "total_repos": 15,
+      "total_prs": 6,
+      "total_stars": 3,
+      "total_issues": 0,
+      "languages": {
+        "ZenScript": 1,
+        "TypeScript": 2,
+        "Python": 6,
+        "Go": 3,
+        "Pascal": 1,
+        "PHP": 1,
+        "GDScript": 1,
+        "Kotlin": 1,
+        "Shell": 5,
+        "CSS": 2,
+        "JavaScript": 3,
+        "Dockerfile": 2
+      },
+      "recorded_at": "2026-01-30T12:46:18.480405"
+    }
+  ],
+  "weekly_reports": [],
+  "monthly_summaries": [],
+  "events": [],
+  "milestones": [
+    {
+      "title": "Reached 25 repositories",
+      "date": "2026-01-15",
+      "type": "repos",
+      "icon": "📦"
+    },
+    {
+      "title": "First GitHub Actions workflow",
+      "date": "2026-01-20",
+      "type": "achievement",
+      "icon": "🚀"
+    }
+  ]
+}

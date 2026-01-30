@@ -1,0 +1,85 @@
+<svg width="1200" height="500" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        
+        * { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        }
+        text { fill: #e6edf3; }
+        .title { 
+            font-size: 20px; 
+            font-weight: 600; 
+            fill: #58a6ff; 
+        }
+        .subtitle { 
+            font-size: 14px; 
+            font-weight: 500; 
+            fill: #8b949e; 
+        }
+        .value { font-size: 28px; font-weight: 700; }
+        .value-large { font-size: 36px; font-weight: 700; }
+        .label { font-size: 12px; opacity: 0.7; }
+        .label-small { font-size: 10px; opacity: 0.6; }
+        .badge {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .metric-change {
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .trend-up { fill: #3fb950; }
+        .trend-down { fill: #f85149; }
+        .trend-neutral { fill: #8b949e; }
+        
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(10px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes scaleIn {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        @keyframes glow {
+            0%, 100% { filter: drop-shadow(0 0 3px currentColor); }
+            50% { filter: drop-shadow(0 0 8px currentColor); }
+        }
+        .animated { animation: fadeIn 0.6s ease-out; }
+        .slide-up { animation: slideUp 0.5s ease-out; }
+        .scale-in { animation: scaleIn 0.4s ease-out; }
+        .pulse { animation: pulse 2s ease-in-out infinite; }
+        .glow { animation: glow 2s ease-in-out infinite; }
+        
+    </style>
+    <rect class="scale-in" width="1200" height="500" fill="#161b22" rx="12"/>
+    <text class="title animated" x="24" y="40">💻 Language Distribution</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Last updated: January 30, 2026</text>
+    <g class="fade-in">
+    <text x="30" y="95" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
+        📊 Primary Languages
+    </text>
+    <line x1="30" y1="105" x2="400" y2="105" stroke="#58a6ff" stroke-width="2" opacity="0.3"/>
+</g>
+    <g class="fade-in" style="animation-delay: 0.4s">
+    <text x="470" y="95" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
+        🔧 Secondary Languages
+    </text>
+    <line x1="470" y1="105" x2="840" y2="105" stroke="#58a6ff" stroke-width="2" opacity="0.3"/>
+</g>
+    <g class="fade-in" style="animation-delay: 1s">
+    <rect x="30" y="430" width="840" height="32" fill="#58a6ff" rx="8" opacity="0.1"/>
+    <text x="45" y="451" style="font-size: 12px; font-weight: 600; fill: #8b949e">
+        📈 Total: 0 languages • 🏆 Most used: N/A (0.0%) • 📁 Total files: 1
+    </text>
+</g>
+</svg>

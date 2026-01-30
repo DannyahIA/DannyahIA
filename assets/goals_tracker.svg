@@ -1,0 +1,250 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        * { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        }
+        text { fill: #e6edf3; }
+        .title { 
+            font-size: 22px; 
+            font-weight: 700; 
+            fill: #58a6ff; 
+        }
+        .value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .track-title {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .skill-name {
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .skill-level {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .label {
+            font-size: 11px;
+            opacity: 0.7;
+        }
+        @keyframes fillProgress {
+            from { width: 0; }
+        }
+        .progress-bar {
+            animation: fillProgress 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated { animation: fadeIn 0.6s ease-out; }
+        </style>
+    <rect width="900" height="500" fill="#161b22" rx="12"/>
+    
+    <!-- Header com estatísticas -->
+    <text class="title animated" x="30" y="40">🎯 Goals &amp; Milestones</text>
+
+
+    <!-- Estatísticas gerais -->
+    <g class="animated" style="animation-delay: 0.1s">
+        <rect x="30" y="75" width="200" height="60" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="45" y="95">📊 Total Goals</text>
+        <text class="value" x="45" y="120" fill="#58a6ff">4</text>
+    </g>
+    
+    <g class="animated" style="animation-delay: 0.2s">
+        <rect x="245" y="75" width="200" height="60" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="260" y="95">✅ Completed</text>
+        <text class="value" x="260" y="120" fill="#3fb950">0</text>
+    </g>
+    
+    <g class="animated" style="animation-delay: 0.3s">
+        <rect x="460" y="75" width="200" height="60" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="475" y="95">📈 Avg Progress</text>
+        <text class="value" x="475" y="120" fill="#58a6ff">39%</text>
+    </g>
+    
+    <g class="animated" style="animation-delay: 0.4s">
+        <rect x="675" y="75" width="195" height="60" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="690" y="95">🔥 High Priority</text>
+        <text class="value" x="690" y="120" fill="#f85149">2</text>
+    </g>
+
+
+    <line x1="30" y1="160" x2="870" y2="160" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+
+
+    <g class="animated" style="animation-delay: 0.5s">
+        <!-- Card de fundo -->
+        <rect x="30" y="175" width="840" height="65" fill="#010409" 
+              rx="10" stroke="#f85149" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"/>
+        
+        <!-- Ícone de prioridade -->
+        <text x="45" y="200" style="font-size: 20px">🔥</text>
+        
+        <!-- Título do goal -->
+        <text class="skill-name" x="75" y="200">Master React Ecosystem</text>
+        
+        <!-- Status badge -->
+        <rect x="650" y="183" width="90" height="22" fill="#58a6ff" rx="11" opacity="0.2"/>
+        <text x="695" y="198" text-anchor="middle" 
+              style="font-size: 10px; font-weight: 700; fill: #58a6ff">In progress</text>
+        
+        <!-- Porcentagem grande -->
+        <text x="850" y="200" text-anchor="end" 
+              style="font-size: 18px; font-weight: 700; fill: #f85149">65%</text>
+        
+        <!-- Informações adicionais -->
+        <text class="label" x="75" y="217" fill="#8b949e">
+            📅 150 days left • Priority: HIGH
+        </text>
+        
+        <!-- Barra de progresso -->
+        <rect x="75" y="225" width="740" height="8" rx="4" 
+              fill="#30363d" opacity="0.3"/>
+        <rect class="progress-bar" x="75" y="225" width="481.0" height="8" 
+              rx="4" fill="url(#goal-gradient-0)" opacity="0.9">
+            <animate attributeName="width" from="0" to="481.0" dur="1.5s" begin="0.5s" fill="freeze"/>
+        </rect>
+        
+        <!-- Gradiente da barra -->
+        <defs>
+            <linearGradient id="goal-gradient-0" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#f85149;stop-opacity:0.6" />
+                <stop offset="100%" style="stop-color:#f85149;stop-opacity:0.9" />
+            </linearGradient>
+        </defs>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.6s">
+        <!-- Card de fundo -->
+        <rect x="30" y="255" width="840" height="65" fill="#010409" 
+              rx="10" stroke="#d29922" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"/>
+        
+        <!-- Ícone de prioridade -->
+        <text x="45" y="280" style="font-size: 20px">⚡</text>
+        
+        <!-- Título do goal -->
+        <text class="skill-name" x="75" y="280">Build 5 Full-Stack Projects</text>
+        
+        <!-- Status badge -->
+        <rect x="650" y="263" width="90" height="22" fill="#d29922" rx="11" opacity="0.2"/>
+        <text x="695" y="278" text-anchor="middle" 
+              style="font-size: 10px; font-weight: 700; fill: #d29922">Started</text>
+        
+        <!-- Porcentagem grande -->
+        <text x="850" y="280" text-anchor="end" 
+              style="font-size: 18px; font-weight: 700; fill: #d29922">40%</text>
+        
+        <!-- Informações adicionais -->
+        <text class="label" x="75" y="297" fill="#8b949e">
+            📅 334 days left • Priority: MEDIUM
+        </text>
+        
+        <!-- Barra de progresso -->
+        <rect x="75" y="305" width="740" height="8" rx="4" 
+              fill="#30363d" opacity="0.3"/>
+        <rect class="progress-bar" x="75" y="305" width="296.0" height="8" 
+              rx="4" fill="url(#goal-gradient-1)" opacity="0.9">
+            <animate attributeName="width" from="0" to="296.0" dur="1.5s" begin="0.6s" fill="freeze"/>
+        </rect>
+        
+        <!-- Gradiente da barra -->
+        <defs>
+            <linearGradient id="goal-gradient-1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#d29922;stop-opacity:0.6" />
+                <stop offset="100%" style="stop-color:#d29922;stop-opacity:0.9" />
+            </linearGradient>
+        </defs>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.7s">
+        <!-- Card de fundo -->
+        <rect x="30" y="335" width="840" height="65" fill="#010409" 
+              rx="10" stroke="#f85149" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"/>
+        
+        <!-- Ícone de prioridade -->
+        <text x="45" y="360" style="font-size: 20px">🔥</text>
+        
+        <!-- Título do goal -->
+        <text class="skill-name" x="75" y="360">Contribute to Open Source</text>
+        
+        <!-- Status badge -->
+        <rect x="650" y="343" width="90" height="22" fill="#d29922" rx="11" opacity="0.2"/>
+        <text x="695" y="358" text-anchor="middle" 
+              style="font-size: 10px; font-weight: 700; fill: #d29922">Started</text>
+        
+        <!-- Porcentagem grande -->
+        <text x="850" y="360" text-anchor="end" 
+              style="font-size: 18px; font-weight: 700; fill: #f85149">30%</text>
+        
+        <!-- Informações adicionais -->
+        <text class="label" x="75" y="377" fill="#8b949e">
+            📅 212 days left • Priority: HIGH
+        </text>
+        
+        <!-- Barra de progresso -->
+        <rect x="75" y="385" width="740" height="8" rx="4" 
+              fill="#30363d" opacity="0.3"/>
+        <rect class="progress-bar" x="75" y="385" width="222.0" height="8" 
+              rx="4" fill="url(#goal-gradient-2)" opacity="0.9">
+            <animate attributeName="width" from="0" to="222.0" dur="1.5s" begin="0.7s" fill="freeze"/>
+        </rect>
+        
+        <!-- Gradiente da barra -->
+        <defs>
+            <linearGradient id="goal-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#f85149;stop-opacity:0.6" />
+                <stop offset="100%" style="stop-color:#f85149;stop-opacity:0.9" />
+            </linearGradient>
+        </defs>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.8s">
+        <!-- Card de fundo -->
+        <rect x="30" y="415" width="840" height="65" fill="#010409" 
+              rx="10" stroke="#d29922" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"/>
+        
+        <!-- Ícone de prioridade -->
+        <text x="45" y="440" style="font-size: 20px">⚡</text>
+        
+        <!-- Título do goal -->
+        <text class="skill-name" x="75" y="440">Learn System Design</text>
+        
+        <!-- Status badge -->
+        <rect x="650" y="423" width="90" height="22" fill="#8b949e" rx="11" opacity="0.2"/>
+        <text x="695" y="438" text-anchor="middle" 
+              style="font-size: 10px; font-weight: 700; fill: #8b949e">Planning</text>
+        
+        <!-- Porcentagem grande -->
+        <text x="850" y="440" text-anchor="end" 
+              style="font-size: 18px; font-weight: 700; fill: #d29922">20%</text>
+        
+        <!-- Informações adicionais -->
+        <text class="label" x="75" y="457" fill="#8b949e">
+            📅 242 days left • Priority: MEDIUM
+        </text>
+        
+        <!-- Barra de progresso -->
+        <rect x="75" y="465" width="740" height="8" rx="4" 
+              fill="#30363d" opacity="0.3"/>
+        <rect class="progress-bar" x="75" y="465" width="148.0" height="8" 
+              rx="4" fill="url(#goal-gradient-3)" opacity="0.9">
+            <animate attributeName="width" from="0" to="148.0" dur="1.5s" begin="0.8s" fill="freeze"/>
+        </rect>
+        
+        <!-- Gradiente da barra -->
+        <defs>
+            <linearGradient id="goal-gradient-3" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#d29922;stop-opacity:0.6" />
+                <stop offset="100%" style="stop-color:#d29922;stop-opacity:0.9" />
+            </linearGradient>
+        </defs>
+    </g>
+
+</svg>

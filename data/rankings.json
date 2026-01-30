@@ -1,0 +1,327 @@
+{
+  "last_update": "2026-01-29T18:29:49.133778+00:00",
+  "top_projects": [
+    {
+      "name": "profile-automation",
+      "full_name": "DannyahIA/profile-automation",
+      "html_url": "https://github.com/DannyahIA/profile-automation",
+      "language": "Python",
+      "score": 30,
+      "breakdown": {
+        "commits": 30,
+        "prs": 0,
+        "issues": 0
+      },
+      "stars": 0,
+      "private": false
+    },
+    {
+      "name": "nexus",
+      "full_name": "DannyahIA/nexus",
+      "html_url": "https://github.com/DannyahIA/nexus",
+      "language": "TypeScript",
+      "score": 1,
+      "breakdown": {
+        "commits": 0,
+        "prs": 1,
+        "issues": 0
+      },
+      "stars": 1,
+      "private": false
+    }
+  ],
+  "most_active": [
+    {
+      "name": "profile-automation",
+      "full_name": "DannyahIA/profile-automation",
+      "language": "Python",
+      "commits": 30,
+      "private": false
+    }
+  ],
+  "most_stars": [
+    {
+      "name": "ai-daily-resume",
+      "full_name": "DannyahIA/ai-daily-resume",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "description": "Python agent that monitors screen activity, uses AI to understand context, and generates daily work summaries."
+    },
+    {
+      "name": "nexus",
+      "full_name": "DannyahIA/nexus",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "description": "Create a platform that integrates Real-Time Communication (Chat, Voice, Video) with Agile and Structured Task Management (Kanban, Lists, Status)."
+    }
+  ],
+  "most_recent": [
+    {
+      "name": "profile-automation",
+      "full_name": "DannyahIA/profile-automation",
+      "language": "Python",
+      "last_push": "2026-01-29T17:29:41+00:00",
+      "days_ago": 0,
+      "private": false
+    },
+    {
+      "name": "DannyahIA",
+      "full_name": "DannyahIA/DannyahIA",
+      "language": null,
+      "last_push": "2026-01-29T13:03:59+00:00",
+      "days_ago": 0,
+      "private": false
+    },
+    {
+      "name": "nexus",
+      "full_name": "DannyahIA/nexus",
+      "language": "TypeScript",
+      "last_push": "2026-01-22T14:26:14+00:00",
+      "days_ago": 7,
+      "private": false
+    },
+    {
+      "name": "orkut",
+      "full_name": "DannyahIA/orkut",
+      "language": "PHP",
+      "last_push": "2025-12-27T19:46:09+00:00",
+      "days_ago": 32,
+      "private": false
+    },
+    {
+      "name": "mc-msg-sync",
+      "full_name": "DannyahIA/mc-msg-sync",
+      "language": "JavaScript",
+      "last_push": "2025-12-25T03:47:35+00:00",
+      "days_ago": 35,
+      "private": true
+    },
+    {
+      "name": "n8n-docker",
+      "full_name": "DannyahIA/n8n-docker",
+      "language": "Shell",
+      "last_push": "2025-12-23T16:57:24+00:00",
+      "days_ago": 37,
+      "private": false
+    },
+    {
+      "name": "sevtechages-server",
+      "full_name": "DannyahIA/sevtechages-server",
+      "language": "ZenScript",
+      "last_push": "2025-12-10T21:06:58+00:00",
+      "days_ago": 49,
+      "private": false
+    },
+    {
+      "name": "nn-dl-tests",
+      "full_name": "DannyahIA/nn-dl-tests",
+      "language": "Python",
+      "last_push": "2025-12-10T13:10:12+00:00",
+      "days_ago": 50,
+      "private": false
+    },
+    {
+      "name": "cv-automate",
+      "full_name": "DannyahIA/cv-automate",
+      "language": "Python",
+      "last_push": "2025-11-19T20:54:27+00:00",
+      "days_ago": 70,
+      "private": true
+    },
+    {
+      "name": "luminn-ai-partner",
+      "full_name": "DannyahIA/luminn-ai-partner",
+      "language": "TypeScript",
+      "last_push": "2025-11-17T21:05:45+00:00",
+      "days_ago": 72,
+      "private": true
+    }
+  ],
+  "by_language": {
+    "Python": [
+      {
+        "name": "profile-automation",
+        "full_name": "DannyahIA/profile-automation",
+        "stars": 0,
+        "activity": 30,
+        "private": false
+      },
+      {
+        "name": "ai-daily-resume",
+        "full_name": "DannyahIA/ai-daily-resume",
+        "stars": 2,
+        "activity": 0,
+        "private": false
+      },
+      {
+        "name": "alexa-gemini-integration-skill",
+        "full_name": "DannyahIA/alexa-gemini-integration-skill",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      },
+      {
+        "name": "cv-automate",
+        "full_name": "DannyahIA/cv-automate",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      },
+      {
+        "name": "nn-dl-tests",
+        "full_name": "DannyahIA/nn-dl-tests",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      },
+      {
+        "name": "ppo-algorithm",
+        "full_name": "DannyahIA/ppo-algorithm",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "TypeScript": [
+      {
+        "name": "nexus",
+        "full_name": "DannyahIA/nexus",
+        "stars": 1,
+        "activity": 1,
+        "private": false
+      },
+      {
+        "name": "aicon-site-cra",
+        "full_name": "DannyahIA/aicon-site-cra",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      },
+      {
+        "name": "eclipsia-website",
+        "full_name": "DannyahIA/eclipsia-website",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      },
+      {
+        "name": "luminn-ai-partner",
+        "full_name": "DannyahIA/luminn-ai-partner",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      },
+      {
+        "name": "minecraft-server-monitor",
+        "full_name": "DannyahIA/minecraft-server-monitor",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      },
+      {
+        "name": "moon-vault-website",
+        "full_name": "DannyahIA/moon-vault-website",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      }
+    ],
+    "Pascal": [
+      {
+        "name": "dynamic-json-converter",
+        "full_name": "DannyahIA/dynamic-json-converter",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "Go": [
+      {
+        "name": "filemanager",
+        "full_name": "DannyahIA/filemanager",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      },
+      {
+        "name": "remote-drive-api-rest",
+        "full_name": "DannyahIA/remote-drive-api-rest",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "JavaScript": [
+      {
+        "name": "mc-msg-sync",
+        "full_name": "DannyahIA/mc-msg-sync",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      }
+    ],
+    "Shell": [
+      {
+        "name": "n8n-docker",
+        "full_name": "DannyahIA/n8n-docker",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "PHP": [
+      {
+        "name": "orkut",
+        "full_name": "DannyahIA/orkut",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      },
+      {
+        "name": "ranhentos-idiomas",
+        "full_name": "DannyahIA/ranhentos-idiomas",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      }
+    ],
+    "Kotlin": [
+      {
+        "name": "remote-drive-mobile",
+        "full_name": "DannyahIA/remote-drive-mobile",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "ZenScript": [
+      {
+        "name": "sevtechages-server",
+        "full_name": "DannyahIA/sevtechages-server",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ],
+    "HTML": [
+      {
+        "name": "skate-shop-trabalho-final",
+        "full_name": "DannyahIA/skate-shop-trabalho-final",
+        "stars": 0,
+        "activity": 0,
+        "private": true
+      }
+    ],
+    "GDScript": [
+      {
+        "name": "vtt-project",
+        "full_name": "DannyahIA/vtt-project",
+        "stars": 0,
+        "activity": 0,
+        "private": false
+      }
+    ]
+  }
+}

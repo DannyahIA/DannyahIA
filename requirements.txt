@@ -1,0 +1,11 @@
+# GitHub Profile Automation - Requirements
+# Coleta de dados e geração de SVGs
+
+# GitHub API
+PyGithub>=2.1.1
+
+# Variáveis de ambiente
+python-dotenv>=1.0.0
+
+# Processamento de datas
+python-dateutil>=2.8.2

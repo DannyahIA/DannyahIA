@@ -1,0 +1,112 @@
+{
+  "featured_projects": [
+    {
+      "name": "ai-daily-resume",
+      "description": "Python agent that monitors screen activity, uses AI to understand context, and generates daily work summaries.",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "commits": 6,
+      "prs": 0,
+      "contributors": 1,
+      "created": "2025-10-06",
+      "last_updated": "2026-01-21",
+      "topics": [],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/ai-daily-resume"
+    },
+    {
+      "name": "nexus",
+      "description": "Create a platform that integrates Real-Time Communication (Chat, Voice, Video) with Agile and Structured Task Management (Kanban, Lists, Status).",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "commits": 112,
+      "prs": 4,
+      "contributors": 2,
+      "created": "2025-11-05",
+      "last_updated": "2025-12-07",
+      "topics": [
+        "cassandra-database",
+        "docker",
+        "golang",
+        "kubernetes",
+        "webrtc",
+        "postgresql",
+        "typescript",
+        "vitejs"
+      ],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/nexus"
+    },
+    {
+      "name": "dynamic-json-converter",
+      "description": "Dynamic JSON to Object Pascal converter built from scratch using Regex. A practical solution for modernizing legacy Delphi applications.",
+      "language": "Pascal",
+      "stars": 0,
+      "forks": 1,
+      "commits": 0,
+      "prs": 0,
+      "contributors": 0,
+      "created": "2024-10-10",
+      "last_updated": "2025-11-12",
+      "topics": [
+        "delphi",
+        "json",
+        "pascal",
+        "pascal-language"
+      ],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/dynamic-json-converter"
+    },
+    {
+      "name": "alexa-gemini-integration-skill",
+      "description": "An AWS Lambda skill (Python) that integrates Amazon Alexa with Google's Gemini Pro, enabling advanced AI conversations.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "commits": 14,
+      "prs": 0,
+      "contributors": 1,
+      "created": "2025-08-03",
+      "last_updated": "2025-11-12",
+      "topics": [],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/alexa-gemini-integration-skill"
+    },
+    {
+      "name": "filemanager",
+      "description": null,
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "commits": 4,
+      "prs": 0,
+      "contributors": 1,
+      "created": "2024-07-05",
+      "last_updated": "2025-11-12",
+      "topics": [],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/filemanager"
+    },
+    {
+      "name": "n8n-docker",
+      "description": null,
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "commits": 2,
+      "prs": 0,
+      "contributors": 2,
+      "created": "2025-12-23",
+      "last_updated": "2025-12-23",
+      "topics": [],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/n8n-docker"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-30T12:46:18.479802",
+    "total_repos": 15
+  }
+}

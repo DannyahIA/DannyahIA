@@ -1,0 +1,174 @@
+{
+    "tracks": [
+        {
+            "name": "Frontend Development",
+            "icon": "🎨",
+            "color": "#61dafb",
+            "skills": [
+                {
+                    "name": "HTML/CSS",
+                    "level": 80,
+                    "target": 90,
+                    "notes": "Mastering advanced layouts and animations"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 70,
+                    "target": 85,
+                    "notes": "ES6+, async/await, modern patterns"
+                },
+                {
+                    "name": "React",
+                    "level": 60,
+                    "target": 80,
+                    "notes": "Hooks, Context API, performance optimization"
+                },
+                {
+                    "name": "TypeScript",
+                    "level": 50,
+                    "target": 75,
+                    "notes": "Type safety and advanced types"
+                }
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "icon": "⚙️",
+            "color": "#3572A5",
+            "skills": [
+                {
+                    "name": "Python",
+                    "level": 75,
+                    "target": 90,
+                    "notes": "FastAPI, async, design patterns"
+                },
+                {
+                    "name": "Node.js",
+                    "level": 55,
+                    "target": 75,
+                    "notes": "Express, microservices, scalability"
+                },
+                {
+                    "name": "Databases",
+                    "level": 60,
+                    "target": 80,
+                    "notes": "SQL, NoSQL, optimization"
+                },
+                {
+                    "name": "APIs",
+                    "level": 70,
+                    "target": 85,
+                    "notes": "RESTful, GraphQL, authentication"
+                }
+            ]
+        },
+        {
+            "name": "DevOps & Tools",
+            "icon": "🚀",
+            "color": "#2088FF",
+            "skills": [
+                {
+                    "name": "Git/GitHub",
+                    "level": 80,
+                    "target": 90,
+                    "notes": "Advanced workflows, Actions, collaboration"
+                },
+                {
+                    "name": "Docker",
+                    "level": 40,
+                    "target": 70,
+                    "notes": "Containers, compose, orchestration"
+                },
+                {
+                    "name": "CI/CD",
+                    "level": 50,
+                    "target": 75,
+                    "notes": "GitHub Actions, automation, testing"
+                },
+                {
+                    "name": "Linux",
+                    "level": 65,
+                    "target": 80,
+                    "notes": "Command line, scripting, server management"
+                }
+            ]
+        }
+    ],
+    "goals": [
+        {
+            "title": "Master React Ecosystem",
+            "description": "Deep dive into React, Next.js, and state management",
+            "progress": 65,
+            "deadline": "2026-06-30",
+            "priority": "high",
+            "milestones": [
+                "Complete 3 React projects",
+                "Learn Next.js 14",
+                "Master Redux Toolkit",
+                "Contribute to React library"
+            ]
+        },
+        {
+            "title": "Build 5 Full-Stack Projects",
+            "description": "End-to-end projects with modern stack",
+            "progress": 40,
+            "deadline": "2026-12-31",
+            "priority": "medium",
+            "milestones": [
+                "Social media clone (2/5)",
+                "E-commerce platform",
+                "Real-time chat app",
+                "Portfolio website",
+                "SaaS dashboard"
+            ]
+        },
+        {
+            "title": "Contribute to Open Source",
+            "description": "Make meaningful contributions to popular projects",
+            "progress": 30,
+            "deadline": "2026-08-31",
+            "priority": "high",
+            "milestones": [
+                "Fix 10 issues in OSS projects",
+                "Create own library",
+                "Get 100 stars on a project",
+                "Become maintainer of a repo"
+            ]
+        },
+        {
+            "title": "Learn System Design",
+            "description": "Understand scalable architecture patterns",
+            "progress": 20,
+            "deadline": "2026-09-30",
+            "priority": "medium",
+            "milestones": [
+                "Complete system design course",
+                "Design 5 systems",
+                "Implement microservices",
+                "Study distributed systems"
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "title": "First Contribution",
+            "date": "2025-01-15",
+            "icon": "🌱"
+        },
+        {
+            "title": "100 Commits",
+            "date": "2025-06-20",
+            "icon": "💯"
+        },
+        {
+            "title": "Week Streak",
+            "date": "2025-12-10",
+            "icon": "🔥"
+        }
+    ],
+    "meta": {
+        "last_updated": "2026-01-29",
+        "version": "1.0.0",
+        "auto_update": true
+    }
+}

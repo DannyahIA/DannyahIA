@@ -1,0 +1,33 @@
+{
+  "daily_stats": {
+    "2026-01": [
+      {
+        "date": "2026-01-26",
+        "commits": 30,
+        "prs": 0,
+        "issues": 0,
+        "reviews": 0
+      },
+      {
+        "date": "2026-01-29",
+        "commits": 15,
+        "prs": 0,
+        "issues": 0,
+        "reviews": 0
+      },
+      {
+        "date": "2026-01-30",
+        "commits": 9,
+        "prs": 0,
+        "issues": 0,
+        "reviews": 0
+      }
+    ]
+  },
+  "metadata": {
+    "last_updated": "2026-01-30T12:46:05.240786",
+    "days_collected": 4,
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-30"
+  }
+}

@@ -1,0 +1,350 @@
+<svg width="1200" height="940" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        * { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        }
+        text { fill: #e6edf3; }
+        .title { 
+            font-size: 24px; 
+            font-weight: 700; 
+            fill: #58a6ff; 
+        }
+        .subtitle { 
+            font-size: 14px; 
+            fill: #8b949e; 
+        }
+        .entry-title {
+            font-size: 15px;
+            font-weight: 600;
+            fill: #e6edf3;
+        }
+        .entry-company {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .entry-date {
+            font-size: 11px;
+            fill: #8b949e;
+        }
+        .entry-desc {
+            font-size: 11px;
+            fill: #6e7681;
+        }
+        .label-small {
+            font-size: 9px;
+            fill: #8b949e;
+        }
+        .tech-badge {
+            font-size: 9px;
+            font-weight: 600;
+            fill: #58a6ff;
+        }
+        .timeline-line {
+            stroke: #30363d;
+            stroke-width: 3;
+        }
+        .timeline-dot {
+            fill: #58a6ff;
+        }
+        .timeline-dot-work {
+            fill: #3fb950;
+        }
+        .timeline-dot-education {
+            fill: #a371f7;
+        }
+        .timeline-dot-current {
+            fill: #d29922;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .animated { animation: fadeIn 0.6s ease-out; }
+        .slide-in { animation: slideIn 0.5s ease-out; }
+        .pulse { animation: pulse 2s ease-in-out infinite; }
+        .cert-badge {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        </style>
+    <rect width="1200" height="940" fill="#161b22" rx="12"/>
+    
+    <!-- Header -->
+    <text class="title animated" x="40" y="45">💼 Professional Journey</text>
+    <text class="subtitle animated" x="40" y="70">Career milestones and achievements</text>
+
+
+    <line class="timeline-line animated" x1="80" y1="320" 
+          x2="1120" y2="320" stroke-linecap="round"/>
+
+
+    <line class="slide-in" x1="210.0" y1="320" x2="210.0" y2="260" 
+          stroke="#3fb950" stroke-width="2" stroke-dasharray="4,4" 
+          opacity="0.3" style="animation-delay: 0.0s"/>
+
+
+    <circle class="timeline-dot-work" cx="210.0" cy="320" r="6" 
+            style="animation-delay: 0.0s"/>
+
+
+    <g class="slide-in" style="animation-delay: 0.0s">
+        <rect x="80.0" y="120" width="260" height="140" 
+              rx="8" fill="#0d1117" 
+              stroke="#3fb950" stroke-width="2" opacity="0.95"/>
+
+
+        <text class="entry-title" x="92.0" y="142">💼 Software Engineer (Intern...</text>
+
+
+        <text class="entry-company" x="92.0" y="160" fill="#3fb950">NAJATEC Tecnologia</text>
+
+
+        <text class="entry-date" x="92.0" y="178">2023 - 2024 (1y 3m)</text>
+
+
+        <text class="entry-desc" x="92.0" y="194">Led and end-to-end development of a...</text>
+
+
+        <rect x="92.0" y="212" width="24" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="98.0" y="223" fill="#3fb950">Go</text>
+
+
+        <rect x="122.0" y="212" width="90" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="128.0" y="223" fill="#3fb950">Pascal Object</text>
+
+
+        <rect x="218.0" y="212" width="30" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="224.0" y="223" fill="#3fb950">AWS</text>
+
+    </g>
+
+    <line class="slide-in" x1="470.0" y1="320" x2="470.0" y2="390" 
+          stroke="#3fb950" stroke-width="2" stroke-dasharray="4,4" 
+          opacity="0.3" style="animation-delay: 0.15s"/>
+
+
+    <circle class="timeline-dot-work" cx="470.0" cy="320" r="6" 
+            style="animation-delay: 0.15s"/>
+
+
+    <g class="slide-in" style="animation-delay: 0.15s">
+        <rect x="340.0" y="400" width="260" height="140" 
+              rx="8" fill="#0d1117" 
+              stroke="#3fb950" stroke-width="2" opacity="0.95"/>
+
+
+        <text class="entry-title" x="352.0" y="422">💼 Junior Developer (full-st...</text>
+
+
+        <text class="entry-company" x="352.0" y="440" fill="#3fb950">Pivot Point Family Growth C...</text>
+
+
+        <text class="entry-date" x="352.0" y="458">2024 - 2025 (8m)</text>
+
+
+        <text class="entry-desc" x="352.0" y="474">Legacy PHP system modernization and...</text>
+
+
+        <rect x="352.0" y="492" width="30" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="358.0" y="503" fill="#3fb950">PHP</text>
+
+
+        <rect x="388.0" y="492" width="48" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="394.0" y="503" fill="#3fb950">Python</text>
+
+
+        <rect x="442.0" y="492" width="42" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="448.0" y="503" fill="#3fb950">MySQL</text>
+
+    </g>
+
+    <line class="slide-in" x1="730.0" y1="320" x2="730.0" y2="260" 
+          stroke="#d29922" stroke-width="2" stroke-dasharray="4,4" 
+          opacity="0.3" style="animation-delay: 0.3s"/>
+
+
+    <circle class="timeline-dot-current pulse" cx="730.0" cy="320" r="8" 
+            style="animation-delay: 0.3s"/>
+
+
+    <g class="slide-in" style="animation-delay: 0.3s">
+        <rect x="600.0" y="120" width="260" height="140" 
+              rx="8" fill="#0d1117" 
+              stroke="#3fb950" stroke-width="2" opacity="0.95"/>
+
+
+        <text class="entry-title" x="612.0" y="142">💼 Founder &amp; Lead Software E...</text>
+
+
+        <text class="entry-company" x="612.0" y="160" fill="#3fb950">EclipsIA Software</text>
+
+
+        <text class="entry-date" x="612.0" y="178">2024 - Present (1y 2m)</text>
+
+
+        <text class="entry-desc" x="612.0" y="194">Founded a software consultancy focu...</text>
+
+
+        <rect x="612.0" y="212" width="48" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="618.0" y="223" fill="#3fb950">Python</text>
+
+
+        <rect x="666.0" y="212" width="24" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="672.0" y="223" fill="#3fb950">Go</text>
+
+
+        <rect x="696.0" y="212" width="66" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="702.0" y="223" fill="#3fb950">Cassandra</text>
+
+    </g>
+
+    <line class="slide-in" x1="990.0" y1="320" x2="990.0" y2="390" 
+          stroke="#3fb950" stroke-width="2" stroke-dasharray="4,4" 
+          opacity="0.3" style="animation-delay: 0.44999999999999996s"/>
+
+
+    <circle class="timeline-dot-work" cx="990.0" cy="320" r="6" 
+            style="animation-delay: 0.44999999999999996s"/>
+
+
+    <g class="slide-in" style="animation-delay: 0.44999999999999996s">
+        <rect x="860.0" y="400" width="260" height="140" 
+              rx="8" fill="#0d1117" 
+              stroke="#3fb950" stroke-width="2" opacity="0.95"/>
+
+
+        <text class="entry-title" x="872.0" y="422">💼 Software Engineer Junior</text>
+
+
+        <text class="entry-company" x="872.0" y="440" fill="#3fb950">MM Tecnologia</text>
+
+
+        <text class="entry-date" x="872.0" y="458">2025 - 2026 (5m)</text>
+
+
+        <text class="entry-desc" x="872.0" y="474">Intensive full-stack development pr...</text>
+
+
+        <rect x="872.0" y="492" width="72" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="878.0" y="503" fill="#3fb950">JavaScript</text>
+
+
+        <rect x="950.0" y="492" width="42" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="956.0" y="503" fill="#3fb950">React</text>
+
+
+        <rect x="998.0" y="492" width="54" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="1004.0" y="503" fill="#3fb950">Node.js</text>
+
+    </g>
+
+    <!-- Curva de conexão -->
+    <path class="timeline-line animated" 
+          d="M 1120 320 
+             C 1160 320, 1160 600, 1120 600
+             L 80 600"
+          fill="none" stroke-linecap="round"/>
+    
+    <!-- Seta indicando direção da timeline -->
+    <polygon points="80,600 110,584 110,616"
+             fill="#30363d" class="animated" opacity="0.7"/>
+
+
+    <line class="slide-in" x1="600.0" y1="600" x2="600.0" y2="670" 
+          stroke="#d29922" stroke-width="2" stroke-dasharray="4,4" 
+          opacity="0.3" style="animation-delay: 0.6s"/>
+
+
+    <circle class="timeline-dot-current pulse" cx="600.0" cy="600" r="8" 
+            style="animation-delay: 0.6s"/>
+
+
+    <g class="slide-in" style="animation-delay: 0.6s">
+        <rect x="470.0" y="680" width="260" height="140" 
+              rx="8" fill="#0d1117" 
+              stroke="#3fb950" stroke-width="2" opacity="0.95"/>
+
+
+        <text class="entry-title" x="482.0" y="702">💼 Backend Developer (Trainee)</text>
+
+
+        <text class="entry-company" x="482.0" y="720" fill="#3fb950">PROCOB</text>
+
+
+        <text class="entry-date" x="482.0" y="738">2026 - Present (&amp;lt; 1m)</text>
+
+
+        <text class="entry-desc" x="482.0" y="754">Contributing to the development and...</text>
+
+
+        <rect x="482.0" y="772" width="54" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="488.0" y="783" fill="#3fb950">PHP 5.6</text>
+
+
+        <rect x="542.0" y="772" width="78" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="548.0" y="783" fill="#3fb950">Symfony 2.8</text>
+
+
+        <rect x="626.0" y="772" width="60" height="16" 
+                  rx="8" fill="#3fb950" opacity="0.15"/>
+        <text class="tech-badge" x="632.0" y="783" fill="#3fb950">Doctrine</text>
+
+    </g>
+
+    <line x1="80" y1="830" x2="1120" y2="830" 
+          stroke="#30363d" stroke-width="1" opacity="0.3"/>
+    <text class="subtitle animated" x="80" y="850">🏆 Certifications</text>
+
+
+    <g class="animated">
+        <circle cx="80" cy="875" r="4" fill="#d29922"/>
+        <text class="cert-badge" x="92" y="879">Go Developer</text>
+        <text class="entry-date" x="92" y="892">(2024)</text>
+    </g>
+
+
+    <g class="animated">
+        <circle cx="310" cy="875" r="4" fill="#d29922"/>
+        <text class="cert-badge" x="322" y="879">DevOps Engineer with AI</text>
+        <text class="entry-date" x="322" y="892">(2026)</text>
+    </g>
+
+
+    <g class="animated">
+        <circle cx="540" cy="875" r="4" fill="#d29922"/>
+        <text class="cert-badge" x="552" y="879">Technologist Degree in Systems Analysis and Development</text>
+        <text class="entry-date" x="552" y="892">(2024)</text>
+    </g>
+
+
+    <g class="animated">
+        <rect x="980" y="95" width="180" height="50" rx="8" 
+              fill="#0d1117" opacity="0.8"/>
+        <text class="subtitle" x="990" y="115">Total Experience</text>
+        <text style="font-size: 20px; font-weight: 700" x="990" y="138" 
+              fill="#3fb950">2y 5m</text>
+    </g>
+
+</svg>

@@ -1,0 +1,353 @@
+<svg width="1200" height="500" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        * { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+        }
+        text { fill: #e6edf3; }
+        .title { 
+            font-size: 22px; 
+            font-weight: 700; 
+            fill: #58a6ff; 
+        }
+        .value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .track-title {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .skill-name {
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .skill-level {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .label {
+            font-size: 11px;
+            opacity: 0.7;
+        }
+        @keyframes fillProgress {
+            from { width: 0; }
+        }
+        .progress-bar {
+            animation: fillProgress 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated { animation: fadeIn 0.6s ease-out; }
+        </style>
+    <rect width="1200" height="500" fill="#161b22" rx="12"/>
+    
+    <!-- Header -->
+    <text class="title animated" x="30" y="40">📚 Learning Roadmap</text>
+    <text class="label" x="30" y="65">Current skill levels and learning paths</text>
+
+
+    <!-- Estatísticas gerais -->
+    <g class="animated" style="animation-delay: 0.1s">
+        <rect x="30" y="90" width="270" height="55" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="45" y="110">📊 Total Skills</text>
+        <text class="value" x="45" y="132" fill="#58a6ff">12</text>
+        <text class="label" x="150" y="110">✨ Avg Level</text>
+        <text class="value" x="150" y="132" fill="#58a6ff">63%</text>
+    </g>
+    
+    <g class="animated" style="animation-delay: 0.2s">
+        <rect x="315" y="90" width="270" height="55" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="330" y="110">🎯 Mastered</text>
+        <text class="value" x="330" y="132" fill="#3fb950">2</text>
+        <text class="label" x="435" y="110">🔄 In Progress</text>
+        <text class="value" x="435" y="132" fill="#d29922">9</text>
+    </g>
+    
+    <g class="animated" style="animation-delay: 0.3s">
+        <rect x="600" y="90" width="570" height="55" fill="#0d1117" rx="8" opacity="0.5"/>
+        <text class="label" x="615" y="110">🏆 Top Skills</text>
+        <text class="label" x="615" y="132" fill="#e6edf3">HTML/CSS, Git/GitHub, Python</text>
+    </g>
+
+
+    <line x1="30" y1="170" x2="1170" y2="170" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+
+
+    <g class="animated" style="animation-delay: 0.4s">
+        <!-- Ícone e nome -->
+        <text x="40" y="210" style="font-size: 16px">🎨</text>
+        <text class="skill-name" x="65" y="210" style="font-size: 13px; font-weight: 600">HTML/CSS</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="210" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #61dafb">80%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="218" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="218" width="384.0" height="6" rx="3" fill="#61dafb" opacity="0.9">
+            <animate attributeName="width" from="0" to="384.0" dur="1s" begin="0.4s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="472.0" cy="221" r="3" fill="#61dafb" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="236" class="label" fill="#d29922" style="font-size: 9px">+10% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.45s">
+        <!-- Ícone e nome -->
+        <text x="40" y="252" style="font-size: 16px">🚀</text>
+        <text class="skill-name" x="65" y="252" style="font-size: 13px; font-weight: 600">Git/GitHub</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="252" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #2088FF">80%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="260" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="260" width="384.0" height="6" rx="3" fill="#2088FF" opacity="0.9">
+            <animate attributeName="width" from="0" to="384.0" dur="1s" begin="0.45s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="472.0" cy="263" r="3" fill="#2088FF" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="278" class="label" fill="#d29922" style="font-size: 9px">+10% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.5s">
+        <!-- Ícone e nome -->
+        <text x="40" y="294" style="font-size: 16px">⚙️</text>
+        <text class="skill-name" x="65" y="294" style="font-size: 13px; font-weight: 600">Python</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="294" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #3572A5">75%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="302" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="302" width="360.0" height="6" rx="3" fill="#3572A5" opacity="0.9">
+            <animate attributeName="width" from="0" to="360.0" dur="1s" begin="0.5s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="472.0" cy="305" r="3" fill="#3572A5" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="320" class="label" fill="#d29922" style="font-size: 9px">+15% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.55s">
+        <!-- Ícone e nome -->
+        <text x="40" y="336" style="font-size: 16px">🎨</text>
+        <text class="skill-name" x="65" y="336" style="font-size: 13px; font-weight: 600">JavaScript</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="336" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #61dafb">70%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="344" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="344" width="336.0" height="6" rx="3" fill="#61dafb" opacity="0.9">
+            <animate attributeName="width" from="0" to="336.0" dur="1s" begin="0.55s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="448.0" cy="347" r="3" fill="#61dafb" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="362" class="label" fill="#d29922" style="font-size: 9px">+15% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.6000000000000001s">
+        <!-- Ícone e nome -->
+        <text x="40" y="378" style="font-size: 16px">⚙️</text>
+        <text class="skill-name" x="65" y="378" style="font-size: 13px; font-weight: 600">APIs</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="378" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #3572A5">70%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="386" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="386" width="336.0" height="6" rx="3" fill="#3572A5" opacity="0.9">
+            <animate attributeName="width" from="0" to="336.0" dur="1s" begin="0.6000000000000001s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="448.0" cy="389" r="3" fill="#3572A5" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="404" class="label" fill="#d29922" style="font-size: 9px">+15% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.65s">
+        <!-- Ícone e nome -->
+        <text x="40" y="420" style="font-size: 16px">🚀</text>
+        <text class="skill-name" x="65" y="420" style="font-size: 13px; font-weight: 600">Linux</text>
+        
+        <!-- Porcentagem -->
+        <text x="540" y="420" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #2088FF">65%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="40" y="428" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="40" y="428" width="312.0" height="6" rx="3" fill="#2088FF" opacity="0.9">
+            <animate attributeName="width" from="0" to="312.0" dur="1s" begin="0.65s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="424.0" cy="431" r="3" fill="#2088FF" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="40" y="446" class="label" fill="#d29922" style="font-size: 9px">+15% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.7000000000000001s">
+        <!-- Ícone e nome -->
+        <text x="640" y="210" style="font-size: 16px">🎨</text>
+        <text class="skill-name" x="665" y="210" style="font-size: 13px; font-weight: 600">React</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="210" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #61dafb">60%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="218" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="218" width="288.0" height="6" rx="3" fill="#61dafb" opacity="0.9">
+            <animate attributeName="width" from="0" to="288.0" dur="1s" begin="0.7000000000000001s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="1024.0" cy="221" r="3" fill="#61dafb" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="236" class="label" fill="#d29922" style="font-size: 9px">+20% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.75s">
+        <!-- Ícone e nome -->
+        <text x="640" y="252" style="font-size: 16px">⚙️</text>
+        <text class="skill-name" x="665" y="252" style="font-size: 13px; font-weight: 600">Databases</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="252" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #3572A5">60%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="260" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="260" width="288.0" height="6" rx="3" fill="#3572A5" opacity="0.9">
+            <animate attributeName="width" from="0" to="288.0" dur="1s" begin="0.75s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="1024.0" cy="263" r="3" fill="#3572A5" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="278" class="label" fill="#d29922" style="font-size: 9px">+20% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.8s">
+        <!-- Ícone e nome -->
+        <text x="640" y="294" style="font-size: 16px">⚙️</text>
+        <text class="skill-name" x="665" y="294" style="font-size: 13px; font-weight: 600">Node.js</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="294" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #3572A5">55%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="302" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="302" width="264.0" height="6" rx="3" fill="#3572A5" opacity="0.9">
+            <animate attributeName="width" from="0" to="264.0" dur="1s" begin="0.8s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="1000.0" cy="305" r="3" fill="#3572A5" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="320" class="label" fill="#d29922" style="font-size: 9px">+20% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.8500000000000001s">
+        <!-- Ícone e nome -->
+        <text x="640" y="336" style="font-size: 16px">🎨</text>
+        <text class="skill-name" x="665" y="336" style="font-size: 13px; font-weight: 600">TypeScript</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="336" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #61dafb">50%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="344" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="344" width="240.0" height="6" rx="3" fill="#61dafb" opacity="0.9">
+            <animate attributeName="width" from="0" to="240.0" dur="1s" begin="0.8500000000000001s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="1000.0" cy="347" r="3" fill="#61dafb" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="362" class="label" fill="#d29922" style="font-size: 9px">+25% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.9s">
+        <!-- Ícone e nome -->
+        <text x="640" y="378" style="font-size: 16px">🚀</text>
+        <text class="skill-name" x="665" y="378" style="font-size: 13px; font-weight: 600">CI/CD</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="378" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #2088FF">50%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="386" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="386" width="240.0" height="6" rx="3" fill="#2088FF" opacity="0.9">
+            <animate attributeName="width" from="0" to="240.0" dur="1s" begin="0.9s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="1000.0" cy="389" r="3" fill="#2088FF" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="404" class="label" fill="#d29922" style="font-size: 9px">+25% to target</text>
+    </g>
+
+
+    <g class="animated" style="animation-delay: 0.9500000000000001s">
+        <!-- Ícone e nome -->
+        <text x="640" y="420" style="font-size: 16px">🚀</text>
+        <text class="skill-name" x="665" y="420" style="font-size: 13px; font-weight: 600">Docker</text>
+        
+        <!-- Porcentagem -->
+        <text x="1140" y="420" text-anchor="end" style="font-size: 14px; font-weight: 700; fill: #2088FF">40%</text>
+        
+        <!-- Barra de progresso -->
+        <rect x="640" y="428" width="480" height="6" rx="3" 
+              fill="#30363d" opacity="0.3"/>
+        <rect x="640" y="428" width="192.0" height="6" rx="3" fill="#2088FF" opacity="0.9">
+            <animate attributeName="width" from="0" to="192.0" dur="1s" begin="0.9500000000000001s" fill="freeze"/>
+        </rect>
+        
+        <!-- Target marker -->
+        <circle cx="976.0" cy="431" r="3" fill="#2088FF" opacity="0.5"/>
+        
+        <!-- Gap info -->
+        <text x="640" y="446" class="label" fill="#d29922" style="font-size: 9px">+30% to target</text>
+    </g>
+
+</svg>

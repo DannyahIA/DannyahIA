@@ -1,0 +1,144 @@
+name: 🚀 Update GitHub Profile
+
+on:
+  schedule:
+    # Executa a cada 6 horas (reduzido para evitar sobrecarga)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permite execução manual
+  # PUSH DESABILITADO para evitar loops infinitos
+  # Se precisar ativar, use apenas com paths específicos e [skip ci] no commit
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    name: 📊 Atualizar Perfil GitHub
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 📊 Coletar dados do GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          echo "🔍 Coletando dados para: $GITHUB_USERNAME"
+          echo "📦 Repositório: $GITHUB_REPOSITORY"
+          python src/scripts/daily_metrics.py
+      
+      - name: 🎨 Gerar gráficos SVG
+        run: |
+          echo "🎨 Gerando gráficos SVG..."
+          python src/scripts/generate_complete_dashboard.py
+      
+      - name: 📝 Atualizar README
+        run: |
+          echo "📝 Atualizando timestamp do README..."
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          sed -i "s|<!-- AUTO-GENERATED:START (last_update) -->.*<!-- AUTO-GENERATED:END -->|<!-- AUTO-GENERATED:START (last_update) -->$TIMESTAMP<!-- AUTO-GENERATED:END -->|g" README.md 2>/dev/null || true
+      
+      - name: 💾 Commit e Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Adicionar todos os arquivos gerados
+          git add assets/*.svg 2>/dev/null || true
+          git add data/*.json 2>/dev/null || true
+          git add README.md 2>/dev/null || true
+          
+          # Verificar se há mudanças
+          if git diff --staged --quiet; then
+            echo "✅ Nenhuma mudança para commitar"
+          else
+            git commit -m "🤖 Auto-update: Métricas e gráficos [$(date +'%Y-%m-%d %H:%M:%S')] [skip ci]" \
+              -m "📊 Métricas atualizadas" \
+              -m "🎨 Gráficos SVG regenerados" \
+              -m "" \
+              -m "Gerado por GitHub Actions"
+            
+            # Fazer pull com rebase antes do push para evitar conflitos
+            echo "🔄 Sincronizando com o repositório remoto..."
+            git pull --rebase origin ${{ github.ref_name }} || true
+            
+            # Tentar push com retry
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+            
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              echo "🚀 Tentativa de push $(($RETRY_COUNT + 1))/$MAX_RETRIES..."
+              
+              if git push origin ${{ github.ref_name }}; then
+                echo "✅ Mudanças enviadas com sucesso!"
+                break
+              else
+                RETRY_COUNT=$(($RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "⚠️ Push falhou, aguardando 5 segundos antes de tentar novamente..."
+                  sleep 5
+                  git pull --rebase origin ${{ github.ref_name }} || true
+                else
+                  echo "❌ Falha após $MAX_RETRIES tentativas"
+                  exit 1
+                fi
+              fi
+            done
+          fi
+      
+      - name: 📊 Resumo da execução
+        if: always()
+        run: |
+          echo "## 📊 Resumo da Atualização do Perfil" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- 🕒 **Horário:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- 👤 **Usuário:** ${{ github.repository_owner }}" >> $GITHUB_STEP_SUMMARY
+          echo "- 📦 **Repositório:** ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Status:** Concluído" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          echo "### 📁 Arquivos Gerados" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### 📊 SVGs:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          ls -lh assets/*.svg 2>/dev/null | tail -n +2 | awk '{print $9, "(" $5 ")"}' >> $GITHUB_STEP_SUMMARY || echo "Nenhum SVG encontrado" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          echo "#### 📄 JSONs:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          ls -lh data/*.json 2>/dev/null | tail -n +2 | awk '{print $9, "(" $5 ")"}' >> $GITHUB_STEP_SUMMARY || echo "Nenhum JSON encontrado" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Mostrar preview das métricas
+          if [ -f data/metrics.json ]; then
+            echo "### 📈 Preview das Métricas" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+            cat data/metrics.json | jq '{username, total_commits, total_repos, total_prs, total_stars, last_updated}' 2>/dev/null >> $GITHUB_STEP_SUMMARY || cat data/metrics.json | head -15 >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi
+      
+      - name: 🎉 Sucesso
+        if: success()
+        run: |
+          echo "✨ Atualização do perfil concluída com sucesso!"
+          echo "📊 Métricas coletadas e gráficos gerados."
+          echo "🚀 Todas as mudanças foram commitadas."

@@ -1,0 +1,115 @@
+{
+    "professional_timeline": [
+        {
+            "title": "Software Engineer (Internship)",
+            "company": "NAJATEC Tecnologia",
+            "type": "work",
+            "date_start": "2023-08",
+            "date_end": "2024-11",
+            "description": "Led and end-to-end development of an internal CRM system from scratch.",
+            "technologies": [
+                "Go",
+                "Pascal Object",
+                "AWS",
+                "Docker",
+                "PostgreSQL"
+            ],
+            "highlights": [],
+            "show_duration": false
+        },
+        {
+            "title": "Junior Developer (full-stack)",
+            "company": "Pivot Point Family Growth Centre Inc.",
+            "type": "work",
+            "date_start": "2024-11",
+            "date_end": "2025-07",
+            "description": "Legacy PHP system modernization and AI feature development",
+            "technologies": [
+                "PHP",
+                "Python",
+                "MySQL"
+            ],
+            "highlights": [],
+            "show_duration": false
+        },
+        {
+            "title": "Software Engineer Junior",
+            "company": "MM Tecnologia",
+            "type": "work",
+            "date_start": "2025-08",
+            "date_end": "2026-01",
+            "description": "Intensive full-stack development program",
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "highlights": [],
+            "show_duration": false
+        },
+        {
+            "title": "Backend Developer (Trainee)",
+            "company": "PROCOB",
+            "type": "work",
+            "date_start": "2026-01",
+            "date_end": "present",
+            "description": "Contributing to the development and maintenance of backend systems, service integrations, and internal applications.",
+            "technologies": [
+                "PHP 5.6",
+                "Symfony 2.8",
+                "Doctrine"
+            ],
+            "highlights": [],
+            "show_duration": false
+        },
+        {
+            "title": "Founder & Lead Software Engineer",
+            "company": "EclipsIA Software",
+            "type": "work",
+            "date_start": "2024-11",
+            "date_end": "present",
+            "description": "Founded a software consultancy focused on delivering custom AI and high-performance distributed systems.",
+            "technologies": [
+                "Python",
+                "Go",
+                "Cassandra",
+                "NextJs",
+                "VueJs",
+                "AI"
+            ],
+            "highlights": [],
+            "show_duration": false
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Go Developer",
+            "issuer": "Hyperskill",
+            "date": "2024-11",
+            "credential_id": "b6ab566f-cba2-4740-827b-c11fdba6f87e",
+            "show": true
+        },
+        {
+            "name": "DevOps Engineer with AI",
+            "issuer": "Hyperskill",
+            "date": "2026-02",
+            "credential_id": "",
+            "show": true
+        },
+        {
+            "name": "Technologist Degree in Systems Analysis and Development",
+            "issuer": " Universidade PositivoUniversidade Positivo ",
+            "date": "2024-12",
+            "credential_id": "1042.1042.0cd62f3bd133",
+            "show": true
+        }
+    ],
+    "meta": {
+        "privacy_mode": "selective",
+        "show_company_names": true,
+        "show_dates": "year_only",
+        "show_duration": true,
+        "highlight_current": true
+    }
+}

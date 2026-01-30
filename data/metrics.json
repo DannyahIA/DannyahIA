@@ -1,0 +1,49 @@
+{
+  "username": "DannyahIA",
+  "name": "Daniel Tavares",
+  "total_commits": 221,
+  "total_repos": 15,
+  "total_prs": 6,
+  "total_issues": 0,
+  "total_stars": 3,
+  "total_forks": 1,
+  "contributors": 4,
+  "activity_streak": {
+    "current": 5,
+    "longest": 5
+  },
+  "languages": {
+    "ZenScript": 1,
+    "TypeScript": 2,
+    "Python": 6,
+    "Go": 3,
+    "Pascal": 1,
+    "PHP": 1,
+    "GDScript": 1,
+    "Kotlin": 1,
+    "Shell": 5,
+    "CSS": 2,
+    "JavaScript": 3,
+    "Dockerfile": 2
+  },
+  "language_bytes": {
+    "Python": 525368,
+    "Shell": 37801,
+    "Batchfile": 4360,
+    "Pascal": 183195,
+    "Go": 257779,
+    "Makefile": 4739,
+    "TypeScript": 999416,
+    "CSS": 27420,
+    "Dockerfile": 9139,
+    "JavaScript": 21941,
+    "HTML": 668,
+    "PHP": 174951,
+    "Hack": 5906,
+    "Kotlin": 45125,
+    "ZenScript": 1480770,
+    "GDScript": 72675,
+    "Svelte": 8876
+  },
+  "last_updated": "2026-01-30T12:45:27.945068"
+}

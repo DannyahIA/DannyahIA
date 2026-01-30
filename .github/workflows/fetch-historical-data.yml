@@ -1,0 +1,252 @@
+name: 📚 Fetch Historical Data
+
+on:
+  workflow_dispatch:  # Execução manual apenas
+    inputs:
+      days_back:
+        description: 'Número de dias para buscar (ex: 30, 60, 90)'
+        required: false
+        default: '30'
+        type: string
+      include_last_month:
+        description: 'Incluir todo o último mês?'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-historical:
+    runs-on: ubuntu-latest
+    name: 📊 Buscar Dados Históricos
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 📊 Coletar dados históricos
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          DAYS_BACK: ${{ inputs.days_back }}
+          INCLUDE_LAST_MONTH: ${{ inputs.include_last_month }}
+        run: |
+          echo "🔍 Coletando dados históricos para: $GITHUB_USERNAME"
+          echo "📅 Período: Últimos $DAYS_BACK dias"
+          echo "📆 Incluir último mês completo: $INCLUDE_LAST_MONTH"
+          
+          python3 << 'EOF'
+          import os
+          import sys
+          from pathlib import Path
+          from datetime import datetime, timedelta, timezone
+          import json
+          
+          # Adicionar src ao path
+          sys.path.insert(0, str(Path.cwd()))
+          
+          from src.collectors.github_collector import GitHubCollector
+          from collections import defaultdict
+          
+          def collect_historical_data():
+              token = os.getenv('GH_TOKEN')
+              username = os.getenv('GITHUB_USERNAME')
+              days_back = int(os.getenv('DAYS_BACK', '30'))
+              include_last_month = os.getenv('INCLUDE_LAST_MONTH', 'true').lower() == 'true'
+              
+              print(f"🚀 Iniciando coleta histórica...")
+              print(f"   Usuário: {username}")
+              print(f"   Dias: {days_back}")
+              print(f"   Incluir último mês: {include_last_month}")
+              
+              collector = GitHubCollector(token, username)
+              
+              now = datetime.now(timezone.utc)
+              
+              # Definir período de coleta
+              if include_last_month:
+                  # Primeiro dia do mês passado
+                  if now.month == 1:
+                      last_month = datetime(now.year - 1, 12, 1, tzinfo=timezone.utc)
+                  else:
+                      last_month = datetime(now.year, now.month - 1, 1, tzinfo=timezone.utc)
+                  
+                  since = last_month
+                  print(f"   📅 Coletando desde: {since.date()} (último mês completo)")
+              else:
+                  since = now - timedelta(days=days_back)
+                  print(f"   📅 Coletando desde: {since.date()} ({days_back} dias atrás)")
+              
+              # Coletar dados
+              print("\n📊 Coletando commits...")
+              commits = collector.collect_commits(since=since, until=now)
+              print(f"   ✓ {len(commits)} commits coletados")
+              
+              print("\n📋 Coletando Pull Requests...")
+              prs = collector.collect_pull_requests(since=since)
+              print(f"   ✓ {len(prs)} PRs coletados")
+              
+              print("\n🐛 Coletando Issues...")
+              issues = collector.collect_issues(since=since)
+              print(f"   ✓ {len(issues)} issues coletados")
+              
+              # Organizar por data
+              activity_by_date = defaultdict(lambda: {'commits': 0, 'prs': 0, 'issues': 0, 'reviews': 0})
+              
+              for commit in commits:
+                  date = commit['date'][:10]
+                  activity_by_date[date]['commits'] += 1
+              
+              for pr in prs:
+                  date = pr['created_at'][:10]
+                  activity_by_date[date]['prs'] += 1
+              
+              for issue in issues:
+                  date = issue['created_at'][:10]
+                  activity_by_date[date]['issues'] += 1
+              
+              # Carregar dados existentes
+              daily_activity_path = Path('data/daily_activity.json')
+              if daily_activity_path.exists():
+                  with open(daily_activity_path, 'r') as f:
+                      existing_data = json.load(f)
+              else:
+                  existing_data = {'daily_stats': {}}
+              
+              # Mesclar dados novos com existentes
+              print("\n🔄 Mesclando com dados existentes...")
+              daily_stats = defaultdict(list)
+              
+              # Adicionar dados existentes
+              for month, days in existing_data.get('daily_stats', {}).items():
+                  for day in days:
+                      daily_stats[month].append(day)
+              
+              # Adicionar/atualizar novos dados
+              for date_str, stats in sorted(activity_by_date.items()):
+                  month = date_str[:7]  # YYYY-MM
+                  
+                  # Verificar se já existe
+                  existing_day = None
+                  for i, day in enumerate(daily_stats[month]):
+                      if day['date'] == date_str:
+                          existing_day = i
+                          break
+                  
+                  new_entry = {
+                      'date': date_str,
+                      'commits': stats['commits'],
+                      'prs': stats['prs'],
+                      'issues': stats['issues'],
+                      'reviews': stats['reviews']
+                  }
+                  
+                  if existing_day is not None:
+                      # Atualizar existente (somar valores)
+                      daily_stats[month][existing_day]['commits'] = max(
+                          daily_stats[month][existing_day]['commits'],
+                          new_entry['commits']
+                      )
+                      daily_stats[month][existing_day]['prs'] = max(
+                          daily_stats[month][existing_day]['prs'],
+                          new_entry['prs']
+                      )
+                      daily_stats[month][existing_day]['issues'] = max(
+                          daily_stats[month][existing_day]['issues'],
+                          new_entry['issues']
+                      )
+                  else:
+                      # Adicionar novo
+                      daily_stats[month].append(new_entry)
+              
+              # Ordenar por data dentro de cada mês
+              for month in daily_stats:
+                  daily_stats[month] = sorted(daily_stats[month], key=lambda x: x['date'])
+              
+              # Salvar
+              output = {
+                  'daily_stats': dict(daily_stats),
+                  'metadata': {
+                      'last_updated': datetime.now().isoformat(),
+                      'last_historical_fetch': {
+                          'timestamp': now.isoformat(),
+                          'days_back': days_back,
+                          'since': since.isoformat(),
+                          'days_collected': len(activity_by_date)
+                      }
+                  }
+              }
+              
+              with open('data/daily_activity.json', 'w', encoding='utf-8') as f:
+                  json.dump(output, f, indent=2, ensure_ascii=False)
+              
+              print(f"\n✅ Dados históricos salvos!")
+              print(f"   📊 Total de dias com atividade: {len(activity_by_date)}")
+              print(f"   📅 Meses cobertos: {len(daily_stats)}")
+              for month in sorted(daily_stats.keys(), reverse=True):
+                  print(f"      - {month}: {len(daily_stats[month])} dias")
+          
+          if __name__ == '__main__':
+              collect_historical_data()
+          EOF
+      
+      - name: 🎨 Regenerar gráficos
+        run: |
+          echo "🎨 Regenerando gráficos com dados históricos..."
+          python src/scripts/generate_complete_dashboard.py
+      
+      - name: 💾 Commit e Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add data/*.json 2>/dev/null || true
+          git add assets/*.svg 2>/dev/null || true
+          
+          if git diff --staged --quiet; then
+            echo "✅ Nenhuma mudança para commitar"
+          else
+            git commit -m "📚 Dados históricos coletados [$(date -u +'%Y-%m-%d %H:%M:%S UTC')] [skip ci]" \
+              -m "📊 Período: Últimos ${{ inputs.days_back }} dias" \
+              -m "📆 Incluir último mês: ${{ inputs.include_last_month }}" \
+              -m "" \
+              -m "Gerado por: Fetch Historical Data Workflow"
+            
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push origin ${{ github.ref_name }}
+            echo "✅ Dados históricos salvos!"
+          fi
+      
+      - name: 📊 Resumo
+        if: always()
+        run: |
+          echo "## 📚 Resumo da Coleta Histórica" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- 🕒 **Horário:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- 👤 **Usuário:** ${{ github.repository_owner }}" >> $GITHUB_STEP_SUMMARY
+          echo "- 📅 **Dias buscados:** ${{ inputs.days_back }}" >> $GITHUB_STEP_SUMMARY
+          echo "- 📆 **Último mês completo:** ${{ inputs.include_last_month }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f data/daily_activity.json ]; then
+            echo "### 📊 Dados Coletados" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+            cat data/daily_activity.json | jq '.metadata.last_historical_fetch' 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "Dados salvos com sucesso" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi
