@@ -1,9 +1,4 @@
 <div align="center">
-*🤖 Automated GitHub portfolio • Updated every hour via GitHub Actions*
-
-<br><br><br><br>
-
-<div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=750&color=EB6F92&center=true&vCenter=true&width=800&lines=Welcome%2C+to+my+GitHub+profile+👋;I'm+Daniel+Tavares)](https://git.io/typing-svg)
 
