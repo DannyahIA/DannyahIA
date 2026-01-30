@@ -20,7 +20,8 @@ _Creator of the [Nexus](https://github.com/DannyahIA/nexus) real-time chat._
 ![Activity Calendar](./assets/activity_calendar.svg)
 ![Perfomance Comparison](./assets/performance_comparison.svg)
 
-My philosophy is to use the right tool for the job, with a special focus on performance and scalability.
+### My philosophy is to use the right tool for the job, with a special focus on performance and scalability.
+
 ![Featured Projects](./assets/featured_projects.svg)
 ![Language Chart](./assets/language_chart.svg)
 ![Learning Stats](./assets/learning_stats.svg)
