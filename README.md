@@ -6,7 +6,7 @@
 
 <div align="center">
 
-### Backend Engineer (Go & Python) | Cloud & MLOps
+### Backend Engineer | Cloud & MLOps
   
 _Focused on building high-performance, scalable backend systems and MLOps pipelines._
 
