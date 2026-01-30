@@ -75,6 +75,24 @@
       "url": "https://github.com/DannyahIA/alexa-gemini-integration-skill"
     },
     {
+      "name": "DannyahIA",
+      "description": "Config files for my GitHub profile.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "commits": 33,
+      "prs": 0,
+      "contributors": 2,
+      "created": "2024-06-18",
+      "last_updated": "2026-01-30",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/DannyahIA"
+    },
+    {
       "name": "filemanager",
       "description": null,
       "language": "Go",
@@ -88,25 +106,10 @@
       "topics": [],
       "status": "active",
       "url": "https://github.com/DannyahIA/filemanager"
-    },
-    {
-      "name": "n8n-docker",
-      "description": null,
-      "language": "Shell",
-      "stars": 0,
-      "forks": 0,
-      "commits": 2,
-      "prs": 0,
-      "contributors": 2,
-      "created": "2025-12-23",
-      "last_updated": "2025-12-23",
-      "topics": [],
-      "status": "active",
-      "url": "https://github.com/DannyahIA/n8n-docker"
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-30T12:46:18.479802",
+    "last_updated": "2026-01-30T18:55:49.979468",
     "total_repos": 15
   }
 }

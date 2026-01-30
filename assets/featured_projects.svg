@@ -321,10 +321,76 @@
     </text>
     </g>
 </a>
-    <a href="https://github.com/DannyahIA/filemanager" target="_blank" class="slide-up" style="animation-delay: 0.6s">
+    <a href="https://github.com/DannyahIA/DannyahIA" target="_blank" class="slide-up" style="animation-delay: 0.6s">
     <g class="project-card" style="cursor: pointer;">
         <!-- Card background com hover effect -->
         <rect x="40" y="390" width="540" height="120" 
+              fill="#010409" rx="12" 
+              stroke="#3572A5" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
+              style="transition: all 0.3s ease;">
+            <animate attributeName="fill-opacity" 
+                     begin="mouseover" end="mouseout" 
+                     from="0.5" to="0.8" dur="0.3s" fill="freeze"/>
+            <animate attributeName="stroke-opacity" 
+                     begin="mouseover" end="mouseout" 
+                     from="0.3" to="0.6" dur="0.3s" fill="freeze"/>
+        </rect>
+        
+        <!-- Nome do projeto -->
+        <text x="60" y="420" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
+            DannyahIA
+        </text>
+        
+        <!-- Ícone de link externo -->
+        <text x="525" y="420" style="font-size: 12px; opacity: 0.6">🔗</text>
+        
+        <!-- Status badge -->
+        <text x="550" y="420" style="font-size: 14px">🟢</text>
+        
+        <!-- Descrição -->
+        <text x="60" y="442" class="label" style="font-size: 11px">
+            Config files for my GitHub profile.
+        </text>
+        
+        <!-- Language badge -->
+        <rect x="60" y="455" width="80" height="20" fill="#3572A5" rx="10" opacity="0.2"/>
+        <circle cx="72" cy="465" r="4" fill="#3572A5"/>
+        <text x="80" y="469" style="font-size: 10px; font-weight: 600; fill: #3572A5">
+            Python
+        </text>
+        
+        <!-- Estatísticas -->
+        <text x="160" y="469" class="label" style="font-size: 10px">
+            ⭐ 0 • 🔀 0 • 📝 33 commits
+        </text>
+        
+        <!-- Topics -->
+        <g>
+    
+        <rect x="60" y="480" width="48" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="66" y="492" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #config
+        </text>
+    
+        <rect x="114" y="480" width="90" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="120" y="492" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #github-config
+        </text>
+    
+    </g>
+    
+    <!-- Last updated -->
+    <text x="490" y="492" text-anchor="end" class="label" style="font-size: 9px">
+        Updated Today
+    </text>
+    </g>
+</a>
+    <a href="https://github.com/DannyahIA/filemanager" target="_blank" class="slide-up" style="animation-delay: 0.7s">
+    <g class="project-card" style="cursor: pointer;">
+        <!-- Card background com hover effect -->
+        <rect x="620" y="390" width="540" height="120" 
               fill="#010409" rx="12" 
               stroke="#00ADD8" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
               style="transition: all 0.3s ease;">
@@ -337,62 +403,8 @@
         </rect>
         
         <!-- Nome do projeto -->
-        <text x="60" y="420" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
-            filemanager
-        </text>
-        
-        <!-- Ícone de link externo -->
-        <text x="525" y="420" style="font-size: 12px; opacity: 0.6">🔗</text>
-        
-        <!-- Status badge -->
-        <text x="550" y="420" style="font-size: 14px">🟢</text>
-        
-        <!-- Descrição -->
-        <text x="60" y="442" class="label" style="font-size: 11px">
-            No description
-        </text>
-        
-        <!-- Language badge -->
-        <rect x="60" y="455" width="80" height="20" fill="#00ADD8" rx="10" opacity="0.2"/>
-        <circle cx="72" cy="465" r="4" fill="#00ADD8"/>
-        <text x="80" y="469" style="font-size: 10px; font-weight: 600; fill: #00ADD8">
-            Go
-        </text>
-        
-        <!-- Estatísticas -->
-        <text x="160" y="469" class="label" style="font-size: 10px">
-            ⭐ 0 • 🔀 0 • 📝 4 commits
-        </text>
-        
-        <!-- Topics -->
-        <g>
-    
-    </g>
-    
-    <!-- Last updated -->
-    <text x="490" y="492" text-anchor="end" class="label" style="font-size: 9px">
-        Updated 2mo ago
-    </text>
-    </g>
-</a>
-    <a href="https://github.com/DannyahIA/n8n-docker" target="_blank" class="slide-up" style="animation-delay: 0.7s">
-    <g class="project-card" style="cursor: pointer;">
-        <!-- Card background com hover effect -->
-        <rect x="620" y="390" width="540" height="120" 
-              fill="#010409" rx="12" 
-              stroke="#89e051" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
-              style="transition: all 0.3s ease;">
-            <animate attributeName="fill-opacity" 
-                     begin="mouseover" end="mouseout" 
-                     from="0.5" to="0.8" dur="0.3s" fill="freeze"/>
-            <animate attributeName="stroke-opacity" 
-                     begin="mouseover" end="mouseout" 
-                     from="0.3" to="0.6" dur="0.3s" fill="freeze"/>
-        </rect>
-        
-        <!-- Nome do projeto -->
         <text x="640" y="420" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
-            n8n-docker
+            filemanager
         </text>
         
         <!-- Ícone de link externo -->
@@ -407,15 +419,15 @@
         </text>
         
         <!-- Language badge -->
-        <rect x="640" y="455" width="80" height="20" fill="#89e051" rx="10" opacity="0.2"/>
-        <circle cx="652" cy="465" r="4" fill="#89e051"/>
-        <text x="660" y="469" style="font-size: 10px; font-weight: 600; fill: #89e051">
-            Shell
+        <rect x="640" y="455" width="80" height="20" fill="#00ADD8" rx="10" opacity="0.2"/>
+        <circle cx="652" cy="465" r="4" fill="#00ADD8"/>
+        <text x="660" y="469" style="font-size: 10px; font-weight: 600; fill: #00ADD8">
+            Go
         </text>
         
         <!-- Estatísticas -->
         <text x="740" y="469" class="label" style="font-size: 10px">
-            ⭐ 0 • 🔀 0 • 📝 2 commits
+            ⭐ 0 • 🔀 0 • 📝 4 commits
         </text>
         
         <!-- Topics -->
@@ -425,14 +437,14 @@
     
     <!-- Last updated -->
     <text x="1070" y="492" text-anchor="end" class="label" style="font-size: 9px">
-        Updated 1mo ago
+        Updated 2mo ago
     </text>
     </g>
 </a>
     <g class="fade-in" style="animation-delay: 1s">
     <line x1="40" y1="510" x2="1160" y2="510" stroke="#30363d" stroke-width="1" opacity="0.3"/>
     <text x="60" y="535" style="font-size: 12px; font-weight: 600; fill: #8b949e">
-        📊 Collective Impact: ⭐ 3 stars • 📝 138 commits • 👥 7 contributors
+        📊 Collective Impact: ⭐ 3 stars • 📝 169 commits • 👥 7 contributors
     </text>
 </g>
 </svg>

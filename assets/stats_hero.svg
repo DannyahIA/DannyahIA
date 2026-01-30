@@ -83,7 +83,7 @@
     <text class="label" x="60" y="160">Total Commits</text>
     
     <!-- Value -->
-    <text x="60" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">221</text>
+    <text x="60" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">213</text>
     
     <!-- Trend badge -->
     <rect x="310" y="165" width="70" height="24" fill="#8b949e" rx="12" opacity="0.2"/>
