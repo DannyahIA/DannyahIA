@@ -63,7 +63,7 @@
     </style>
     <rect class="scale-in" width="1200" height="450" fill="#161b22" rx="12"/>
     <text class="title animated" x="24" y="40">📈 Performance Trend</text>
-    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Daily commit activity comparison • Updated January 31, 2026</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Daily commit activity comparison • Updated February 01, 2026</text>
     <g class="fade-in" opacity="0.15">
         <line x1="80" y1="140.0" x2="1120" y2="140.0" 
                   stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
@@ -80,15 +80,15 @@
     </g>
     <g class="fade-in" style="animation-delay: 0.2s">
         <text x="65" y="144.0" text-anchor="end" 
-                  style="font-size: 11px; fill: #8b949e">60</text>
+                  style="font-size: 11px; fill: #8b949e">10</text>
         <text x="65" y="188.0" text-anchor="end" 
-                  style="font-size: 11px; fill: #8b949e">48</text>
+                  style="font-size: 11px; fill: #8b949e">8</text>
         <text x="65" y="232.0" text-anchor="end" 
-                  style="font-size: 11px; fill: #8b949e">36</text>
+                  style="font-size: 11px; fill: #8b949e">6</text>
         <text x="65" y="276.0" text-anchor="end" 
-                  style="font-size: 11px; fill: #8b949e">24</text>
+                  style="font-size: 11px; fill: #8b949e">4</text>
         <text x="65" y="320.0" text-anchor="end" 
-                  style="font-size: 11px; fill: #8b949e">12</text>
+                  style="font-size: 11px; fill: #8b949e">2</text>
         <text x="65" y="364.0" text-anchor="end" 
                   style="font-size: 11px; fill: #8b949e">0</text>
     </g>
@@ -110,7 +110,7 @@
     </path>
 </g>
     <g class="fade-in" style="animation-delay: 0.5s">
-    <path d="M 80.0 360 L 80.0 250.0 L 114.66666666666666 195.0 L 149.33333333333331 140.0 L 184.0 140.0 L 218.66666666666666 140.0 L 253.33333333333331 140.0 L 288.0 140.0 L 322.66666666666663 140.0 L 357.3333333333333 140.0 L 392.0 140.0 L 426.66666666666663 140.0 L 461.3333333333333 140.0 L 496.0 140.0 L 530.6666666666667 140.0 L 565.3333333333333 140.0 L 600.0 140.0 L 634.6666666666666 140.0 L 669.3333333333334 140.0 L 704.0 140.0 L 738.6666666666666 140.0 L 773.3333333333333 140.0 L 808.0 140.0 L 842.6666666666666 140.0 L 877.3333333333334 140.0 L 912.0 140.0 L 946.6666666666667 140.0 L 981.3333333333334 140.0 L 1016.0 140.0 L 1050.6666666666665 140.0 L 1085.3333333333335 140.0 L 1120.0 140.0 L 1120.0 360 Z" fill="url(#curr-gradient)" opacity="0.3">
+    <path d="M 80.0 360 L 80.0 360.0 L 114.66666666666666 360.0 L 149.33333333333331 360.0 L 184.0 360.0 L 218.66666666666666 360.0 L 253.33333333333331 360.0 L 288.0 360.0 L 322.66666666666663 360.0 L 357.3333333333333 360.0 L 392.0 360.0 L 426.66666666666663 360.0 L 461.3333333333333 360.0 L 496.0 360.0 L 530.6666666666667 360.0 L 565.3333333333333 360.0 L 600.0 360.0 L 634.6666666666666 360.0 L 669.3333333333334 360.0 L 704.0 360.0 L 738.6666666666666 360.0 L 773.3333333333333 360.0 L 808.0 360.0 L 842.6666666666666 360.0 L 877.3333333333334 360.0 L 912.0 360.0 L 946.6666666666667 360.0 L 981.3333333333334 360.0 L 1016.0 360.0 L 1050.6666666666665 360.0 L 1085.3333333333335 360.0 L 1120.0 360.0 L 1120.0 360 Z" fill="url(#curr-gradient)" opacity="0.3">
         <animate attributeName="opacity" from="0" to="0.3" dur="1s" begin="0.5s" fill="freeze"/>
     </path>
 </g>
@@ -121,7 +121,7 @@
     </path>
 </g>
     <g class="fade-in" style="animation-delay: 0.7s">
-    <path d="M 80.0 250.0 L 114.66666666666666 195.0 L 149.33333333333331 140.0 L 184.0 140.0 L 218.66666666666666 140.0 L 253.33333333333331 140.0 L 288.0 140.0 L 322.66666666666663 140.0 L 357.3333333333333 140.0 L 392.0 140.0 L 426.66666666666663 140.0 L 461.3333333333333 140.0 L 496.0 140.0 L 530.6666666666667 140.0 L 565.3333333333333 140.0 L 600.0 140.0 L 634.6666666666666 140.0 L 669.3333333333334 140.0 L 704.0 140.0 L 738.6666666666666 140.0 L 773.3333333333333 140.0 L 808.0 140.0 L 842.6666666666666 140.0 L 877.3333333333334 140.0 L 912.0 140.0 L 946.6666666666667 140.0 L 981.3333333333334 140.0 L 1016.0 140.0 L 1050.6666666666665 140.0 L 1085.3333333333335 140.0 L 1120.0 140.0" fill="none" stroke="#3fb950" 
+    <path d="M 80.0 360.0 L 114.66666666666666 360.0 L 149.33333333333331 360.0 L 184.0 360.0 L 218.66666666666666 360.0 L 253.33333333333331 360.0 L 288.0 360.0 L 322.66666666666663 360.0 L 357.3333333333333 360.0 L 392.0 360.0 L 426.66666666666663 360.0 L 461.3333333333333 360.0 L 496.0 360.0 L 530.6666666666667 360.0 L 565.3333333333333 360.0 L 600.0 360.0 L 634.6666666666666 360.0 L 669.3333333333334 360.0 L 704.0 360.0 L 738.6666666666666 360.0 L 773.3333333333333 360.0 L 808.0 360.0 L 842.6666666666666 360.0 L 877.3333333333334 360.0 L 912.0 360.0 L 946.6666666666667 360.0 L 981.3333333333334 360.0 L 1016.0 360.0 L 1050.6666666666665 360.0 L 1085.3333333333335 360.0 L 1120.0 360.0" fill="none" stroke="#3fb950" 
           stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
         <animate attributeName="stroke-dasharray" from="0 2000" to="2000 0" dur="2s" begin="0.7s" fill="freeze"/>
     </path>
@@ -129,25 +129,25 @@
     <g class="scale-in" style="animation-delay: 1.2s">
     <circle cx="1120.0" cy="360.0" r="5" 
             fill="#58a6ff" stroke="#0d1117" stroke-width="2"/>
-    <circle cx="1120.0" cy="140.0" r="5" 
+    <circle cx="1120.0" cy="360.0" r="5" 
             fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
 </g>
     <g class="slide-up" style="animation-delay: 0.3s">
     <rect x="80" y="82" width="4" height="20" fill="#58a6ff" rx="2"/>
     <text x="95" y="90" style="font-size: 13px; font-weight: 600; fill: #e6edf3">
-        December 2025
+        January 2026
     </text>
     <text x="95" y="105" style="font-size: 11px; fill: #8b949e">
-        0 commits • 0 PRs • 0 repos
+        0 commits • 0 PRs • 15 repos
     </text>
 </g>
     <g class="slide-up" style="animation-delay: 0.4s">
     <rect x="380" y="82" width="4" height="20" fill="#3fb950" rx="2"/>
     <text x="395" y="90" style="font-size: 13px; font-weight: 600; fill: #e6edf3">
-        January 2026
+        February 2026
     </text>
     <text x="395" y="105" style="font-size: 11px; fill: #8b949e">
-        60 commits • 0 PRs • 15 repos
+        0 commits • 0 PRs • 15 repos
     </text>
 </g>
     <g class="scale-in" style="animation-delay: 0.5s">
