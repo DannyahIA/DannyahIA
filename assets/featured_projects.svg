@@ -63,7 +63,7 @@
     </style>
     <rect class="scale-in" width="1200" height="550" fill="#161b22" rx="12"/>
     <text class="title animated" x="24" y="40"></text>
-    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Showcasing dedication and innovation • Updated February 02, 2026</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Showcasing dedication and innovation • Updated February 03, 2026</text>
     <g class="fade-in">
     <text class="title" x="40" y="45">🚀 Featured Projects</text>
     <text class="label" x="40" y="70">My most significant repositories and contributions</text>
@@ -119,7 +119,7 @@
     
     <!-- Last updated -->
     <text x="490" y="222" text-anchor="end" class="label" style="font-size: 9px">
-        Updated 12d ago
+        Updated 13d ago
     </text>
     </g>
 </a>
@@ -383,7 +383,7 @@
     
     <!-- Last updated -->
     <text x="490" y="492" text-anchor="end" class="label" style="font-size: 9px">
-        Updated Today
+        Updated Yesterday
     </text>
     </g>
 </a>
