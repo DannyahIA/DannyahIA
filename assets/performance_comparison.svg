@@ -63,7 +63,7 @@
     </style>
     <rect class="scale-in" width="1200" height="450" fill="#161b22" rx="12"/>
     <text class="title animated" x="24" y="40">📈 Performance Trend</text>
-    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Daily commit activity comparison • Updated February 05, 2026</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">Daily commit activity comparison • Updated February 06, 2026</text>
     <g class="fade-in" opacity="0.15">
         <line x1="80" y1="140.0" x2="1120" y2="140.0" 
                   stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
