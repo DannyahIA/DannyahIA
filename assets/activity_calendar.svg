@@ -107,7 +107,7 @@
     <!-- Calendar Grid -->
     <g class="animated" style="animation-delay: 0.2s">
         <text class="label" x="440" y="100">
-            Jan 09 - Feb 07, 2026
+            Jan 10 - Feb 08, 2026
         </text>
 
 
@@ -116,10 +116,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.2s">
-                <title>January 09, 2026: 0 commits</title>
+                <title>January 10, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="461.0" y="184" 
-                  text-anchor="middle">9</text>
+                  text-anchor="middle">10</text>
         </g>
 
 
@@ -128,10 +128,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.21000000000000002s">
-                <title>January 10, 2026: 0 commits</title>
+                <title>January 11, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="509.0" y="184" 
-                  text-anchor="middle">10</text>
+                  text-anchor="middle">11</text>
         </g>
 
 
@@ -140,10 +140,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.22s">
-                <title>January 11, 2026: 0 commits</title>
+                <title>January 12, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="557.0" y="184" 
-                  text-anchor="middle">11</text>
+                  text-anchor="middle">12</text>
         </g>
 
 
@@ -152,10 +152,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.23s">
-                <title>January 12, 2026: 0 commits</title>
+                <title>January 13, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="605.0" y="184" 
-                  text-anchor="middle">12</text>
+                  text-anchor="middle">13</text>
         </g>
 
 
@@ -164,10 +164,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.24000000000000002s">
-                <title>January 13, 2026: 0 commits</title>
+                <title>January 14, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="653.0" y="184" 
-                  text-anchor="middle">13</text>
+                  text-anchor="middle">14</text>
         </g>
 
 
@@ -176,10 +176,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.25s">
-                <title>January 14, 2026: 0 commits</title>
+                <title>January 15, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="701.0" y="184" 
-                  text-anchor="middle">14</text>
+                  text-anchor="middle">15</text>
         </g>
 
 
@@ -188,10 +188,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.26s">
-                <title>January 15, 2026: 0 commits</title>
+                <title>January 16, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="749.0" y="184" 
-                  text-anchor="middle">15</text>
+                  text-anchor="middle">16</text>
         </g>
 
 
@@ -200,10 +200,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.27s">
-                <title>January 16, 2026: 0 commits</title>
+                <title>January 17, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="797.0" y="184" 
-                  text-anchor="middle">16</text>
+                  text-anchor="middle">17</text>
         </g>
 
 
@@ -212,10 +212,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.28s">
-                <title>January 17, 2026: 0 commits</title>
+                <title>January 18, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="845.0" y="184" 
-                  text-anchor="middle">17</text>
+                  text-anchor="middle">18</text>
         </g>
 
 
@@ -224,10 +224,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.29000000000000004s">
-                <title>January 18, 2026: 0 commits</title>
+                <title>January 19, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="893.0" y="184" 
-                  text-anchor="middle">18</text>
+                  text-anchor="middle">19</text>
         </g>
 
 
@@ -236,10 +236,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.30000000000000004s">
-                <title>January 19, 2026: 0 commits</title>
+                <title>January 20, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="461.0" y="252" 
-                  text-anchor="middle">19</text>
+                  text-anchor="middle">20</text>
         </g>
 
 
@@ -248,10 +248,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.31s">
-                <title>January 20, 2026: 0 commits</title>
+                <title>January 21, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="509.0" y="252" 
-                  text-anchor="middle">20</text>
+                  text-anchor="middle">21</text>
         </g>
 
 
@@ -260,10 +260,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.32s">
-                <title>January 21, 2026: 0 commits</title>
+                <title>January 22, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="557.0" y="252" 
-                  text-anchor="middle">21</text>
+                  text-anchor="middle">22</text>
         </g>
 
 
@@ -272,10 +272,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.33s">
-                <title>January 22, 2026: 0 commits</title>
+                <title>January 23, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="605.0" y="252" 
-                  text-anchor="middle">22</text>
+                  text-anchor="middle">23</text>
         </g>
 
 
@@ -284,10 +284,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.34s">
-                <title>January 23, 2026: 0 commits</title>
+                <title>January 24, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="653.0" y="252" 
-                  text-anchor="middle">23</text>
+                  text-anchor="middle">24</text>
         </g>
 
 
@@ -296,10 +296,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.35s">
-                <title>January 24, 2026: 0 commits</title>
+                <title>January 25, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="701.0" y="252" 
-                  text-anchor="middle">24</text>
+                  text-anchor="middle">25</text>
         </g>
 
 
@@ -308,10 +308,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.36s">
-                <title>January 25, 2026: 0 commits</title>
+                <title>January 26, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="749.0" y="252" 
-                  text-anchor="middle">25</text>
+                  text-anchor="middle">26</text>
         </g>
 
 
@@ -320,10 +320,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.37s">
-                <title>January 26, 2026: 0 commits</title>
+                <title>January 27, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="797.0" y="252" 
-                  text-anchor="middle">26</text>
+                  text-anchor="middle">27</text>
         </g>
 
 
@@ -332,10 +332,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.38s">
-                <title>January 27, 2026: 0 commits</title>
+                <title>January 28, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="845.0" y="252" 
-                  text-anchor="middle">27</text>
+                  text-anchor="middle">28</text>
         </g>
 
 
@@ -344,10 +344,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.39s">
-                <title>January 28, 2026: 0 commits</title>
+                <title>January 29, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="893.0" y="252" 
-                  text-anchor="middle">28</text>
+                  text-anchor="middle">29</text>
         </g>
 
 
@@ -356,10 +356,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.4s">
-                <title>January 29, 2026: 0 commits</title>
+                <title>January 30, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="461.0" y="320" 
-                  text-anchor="middle">29</text>
+                  text-anchor="middle">30</text>
         </g>
 
 
@@ -368,10 +368,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.41000000000000003s">
-                <title>January 30, 2026: 0 commits</title>
+                <title>January 31, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="509.0" y="320" 
-                  text-anchor="middle">30</text>
+                  text-anchor="middle">31</text>
         </g>
 
 
@@ -380,10 +380,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.42000000000000004s">
-                <title>January 31, 2026: 0 commits</title>
+                <title>February 01, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="557.0" y="320" 
-                  text-anchor="middle">31</text>
+                  text-anchor="middle">1</text>
         </g>
 
 
@@ -392,10 +392,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.43000000000000005s">
-                <title>February 01, 2026: 0 commits</title>
+                <title>February 02, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="605.0" y="320" 
-                  text-anchor="middle">1</text>
+                  text-anchor="middle">2</text>
         </g>
 
 
@@ -404,10 +404,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.44s">
-                <title>February 02, 2026: 0 commits</title>
+                <title>February 03, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="653.0" y="320" 
-                  text-anchor="middle">2</text>
+                  text-anchor="middle">3</text>
         </g>
 
 
@@ -416,10 +416,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.45s">
-                <title>February 03, 2026: 0 commits</title>
+                <title>February 04, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="701.0" y="320" 
-                  text-anchor="middle">3</text>
+                  text-anchor="middle">4</text>
         </g>
 
 
@@ -428,10 +428,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.46s">
-                <title>February 04, 2026: 0 commits</title>
+                <title>February 05, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="749.0" y="320" 
-                  text-anchor="middle">4</text>
+                  text-anchor="middle">5</text>
         </g>
 
 
@@ -440,10 +440,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.47000000000000003s">
-                <title>February 05, 2026: 0 commits</title>
+                <title>February 06, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="797.0" y="320" 
-                  text-anchor="middle">5</text>
+                  text-anchor="middle">6</text>
         </g>
 
 
@@ -452,10 +452,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.48000000000000004s">
-                <title>February 06, 2026: 0 commits</title>
+                <title>February 07, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="845.0" y="320" 
-                  text-anchor="middle">6</text>
+                  text-anchor="middle">7</text>
         </g>
 
 
@@ -464,10 +464,10 @@
                   rx="6" fill="#30363d" opacity="0.2" 
                   stroke="#30363d" stroke-width="1" class="slide-up"
                   style="animation-delay: 0.49s">
-                <title>February 07, 2026: 0 commits</title>
+                <title>February 08, 2026: 0 commits</title>
             </rect>
             <text class="day-label" x="893.0" y="320" 
-                  text-anchor="middle">7</text>
+                  text-anchor="middle">8</text>
         </g>
 
     </g>
