@@ -63,7 +63,7 @@
     </style>
     <rect class="scale-in" width="1200" height="320" fill="#161b22" rx="12"/>
     <text class="title animated" x="24" y="40"></text>
-    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">📊 Last updated: February 20, 2026</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">📊 Last updated: February 21, 2026</text>
     <g class="fade-in">
     <text class="title" x="40" y="45">GitHub Statistics Overview</text>
     <rect x="920" y="22" width="240" height="36" fill="#3fb950" rx="18" opacity="0.2"/>
