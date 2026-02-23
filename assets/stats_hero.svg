@@ -63,7 +63,7 @@
     </style>
     <rect class="scale-in" width="1200" height="320" fill="#161b22" rx="12"/>
     <text class="title animated" x="24" y="40"></text>
-    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">📊 Last updated: February 22, 2026</text>
+    <text class="subtitle animated" x="24" y="65" style="animation-delay: 0.1s">📊 Last updated: February 23, 2026</text>
     <g class="fade-in">
     <text class="title" x="40" y="45">GitHub Statistics Overview</text>
     <rect x="920" y="22" width="240" height="36" fill="#3fb950" rx="18" opacity="0.2"/>
@@ -83,7 +83,7 @@
     <text class="label" x="60" y="160">Total Commits</text>
     
     <!-- Value -->
-    <text x="60" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">213</text>
+    <text x="60" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">209</text>
     
     <!-- Trend badge -->
     <rect x="310" y="165" width="70" height="24" fill="#8b949e" rx="12" opacity="0.2"/>
