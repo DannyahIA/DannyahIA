@@ -102,12 +102,12 @@
     <text class="label" x="440" y="160">Pull Requests</text>
     
     <!-- Value -->
-    <text x="440" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">6</text>
+    <text x="440" y="188" style="font-size: 32px; font-weight: 700; fill: #58a6ff">4</text>
     
     <!-- Trend badge -->
-    <rect x="690" y="165" width="70" height="24" fill="#8b949e" rx="12" opacity="0.2"/>
+    <rect x="690" y="165" width="70" height="24" fill="#f85149" rx="12" opacity="0.2"/>
     <text x="725" y="182" text-anchor="middle" 
-          style="font-size: 12px; font-weight: 700; fill: #8b949e">● ±0%</text>
+          style="font-size: 12px; font-weight: 700; fill: #f85149">↓ -33%</text>
 </g>
     <g class="slide-up" style="animation-delay: 0.4s">
     <!-- Card background -->
