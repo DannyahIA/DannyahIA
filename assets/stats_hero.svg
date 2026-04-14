@@ -178,7 +178,7 @@
     <text class="label" x="820" y="260">Stars Earned</text>
     
     <!-- Value -->
-    <text x="820" y="288" style="font-size: 32px; font-weight: 700; fill: #58a6ff">3</text>
+    <text x="820" y="288" style="font-size: 32px; font-weight: 700; fill: #58a6ff">4</text>
     
     <!-- Trend badge -->
     <rect x="1070" y="265" width="70" height="24" fill="#8b949e" rx="12" opacity="0.2"/>

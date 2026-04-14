@@ -123,82 +123,10 @@
     </text>
     </g>
 </a>
-    <a href="https://github.com/DannyahIA/nexus" target="_blank" class="slide-up" style="animation-delay: 0.30000000000000004s">
+    <a href="https://github.com/DannyahIA/dynamic-json-converter" target="_blank" class="slide-up" style="animation-delay: 0.30000000000000004s">
     <g class="project-card" style="cursor: pointer;">
         <!-- Card background com hover effect -->
         <rect x="620" y="120" width="540" height="120" 
-              fill="#010409" rx="12" 
-              stroke="#3178c6" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
-              style="transition: all 0.3s ease;">
-            <animate attributeName="fill-opacity" 
-                     begin="mouseover" end="mouseout" 
-                     from="0.5" to="0.8" dur="0.3s" fill="freeze"/>
-            <animate attributeName="stroke-opacity" 
-                     begin="mouseover" end="mouseout" 
-                     from="0.3" to="0.6" dur="0.3s" fill="freeze"/>
-        </rect>
-        
-        <!-- Nome do projeto -->
-        <text x="640" y="150" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
-            nexus
-        </text>
-        
-        <!-- Ícone de link externo -->
-        <text x="1105" y="150" style="font-size: 12px; opacity: 0.6">🔗</text>
-        
-        <!-- Status badge -->
-        <text x="1130" y="150" style="font-size: 14px">🟢</text>
-        
-        <!-- Descrição -->
-        <text x="640" y="172" class="label" style="font-size: 11px">
-            Create a platform that integrates Real-Time Communication (Chat, Voice...
-        </text>
-        
-        <!-- Language badge -->
-        <rect x="640" y="185" width="80" height="20" fill="#3178c6" rx="10" opacity="0.2"/>
-        <circle cx="652" cy="195" r="4" fill="#3178c6"/>
-        <text x="660" y="199" style="font-size: 10px; font-weight: 600; fill: #3178c6">
-            TypeScript
-        </text>
-        
-        <!-- Estatísticas -->
-        <text x="740" y="199" class="label" style="font-size: 10px">
-            ⭐ 1 • 🔀 0 • 📝 112 commits
-        </text>
-        
-        <!-- Topics -->
-        <g>
-    
-        <rect x="640" y="210" width="120" height="18" 
-              fill="#58a6ff" rx="9" opacity="0.15"/>
-        <text x="646" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #cassandra-database
-        </text>
-    
-        <rect x="766" y="210" width="48" height="18" 
-              fill="#58a6ff" rx="9" opacity="0.15"/>
-        <text x="772" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #docker
-        </text>
-    
-        <rect x="820" y="210" width="48" height="18" 
-              fill="#58a6ff" rx="9" opacity="0.15"/>
-        <text x="826" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #golang
-        </text>
-    
-    </g>
-    
-    <!-- Last updated -->
-    <text x="1070" y="222" text-anchor="end" class="label" style="font-size: 9px">
-        Updated 4mo ago
-    </text>
-    </g>
-</a>
-    <a href="https://github.com/DannyahIA/dynamic-json-converter" target="_blank" class="slide-up" style="animation-delay: 0.4s">
-    <g class="project-card" style="cursor: pointer;">
-        <!-- Card background com hover effect -->
-        <rect x="40" y="255" width="540" height="120" 
               fill="#010409" rx="12" 
               stroke="#58a6ff" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
               style="transition: all 0.3s ease;">
@@ -211,8 +139,80 @@
         </rect>
         
         <!-- Nome do projeto -->
-        <text x="60" y="285" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
+        <text x="640" y="150" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
             dynamic-json-converter
+        </text>
+        
+        <!-- Ícone de link externo -->
+        <text x="1105" y="150" style="font-size: 12px; opacity: 0.6">🔗</text>
+        
+        <!-- Status badge -->
+        <text x="1130" y="150" style="font-size: 14px">🟢</text>
+        
+        <!-- Descrição -->
+        <text x="640" y="172" class="label" style="font-size: 11px">
+            Dynamic JSON to Object Pascal converter built from scratch using Regex...
+        </text>
+        
+        <!-- Language badge -->
+        <rect x="640" y="185" width="80" height="20" fill="#58a6ff" rx="10" opacity="0.2"/>
+        <circle cx="652" cy="195" r="4" fill="#58a6ff"/>
+        <text x="660" y="199" style="font-size: 10px; font-weight: 600; fill: #58a6ff">
+            Pascal
+        </text>
+        
+        <!-- Estatísticas -->
+        <text x="740" y="199" class="label" style="font-size: 10px">
+            ⭐ 1 • 🔀 1 • 📝 0 commits
+        </text>
+        
+        <!-- Topics -->
+        <g>
+    
+        <rect x="640" y="210" width="48" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="646" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #delphi
+        </text>
+    
+        <rect x="694" y="210" width="36" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="700" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #json
+        </text>
+    
+        <rect x="736" y="210" width="48" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="742" y="222" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #pascal
+        </text>
+    
+    </g>
+    
+    <!-- Last updated -->
+    <text x="1070" y="222" text-anchor="end" class="label" style="font-size: 9px">
+        Updated Today
+    </text>
+    </g>
+</a>
+    <a href="https://github.com/DannyahIA/nexus" target="_blank" class="slide-up" style="animation-delay: 0.4s">
+    <g class="project-card" style="cursor: pointer;">
+        <!-- Card background com hover effect -->
+        <rect x="40" y="255" width="540" height="120" 
+              fill="#010409" rx="12" 
+              stroke="#3178c6" stroke-width="2" stroke-opacity="0.3" fill-opacity="0.5"
+              style="transition: all 0.3s ease;">
+            <animate attributeName="fill-opacity" 
+                     begin="mouseover" end="mouseout" 
+                     from="0.5" to="0.8" dur="0.3s" fill="freeze"/>
+            <animate attributeName="stroke-opacity" 
+                     begin="mouseover" end="mouseout" 
+                     from="0.3" to="0.6" dur="0.3s" fill="freeze"/>
+        </rect>
+        
+        <!-- Nome do projeto -->
+        <text x="60" y="285" style="font-size: 16px; font-weight: 700; fill: #e6edf3">
+            nexus
         </text>
         
         <!-- Ícone de link externo -->
@@ -223,47 +223,47 @@
         
         <!-- Descrição -->
         <text x="60" y="307" class="label" style="font-size: 11px">
-            Dynamic JSON to Object Pascal converter built from scratch using Regex...
+            Create a platform that integrates Real-Time Communication (Chat, Voice...
         </text>
         
         <!-- Language badge -->
-        <rect x="60" y="320" width="80" height="20" fill="#58a6ff" rx="10" opacity="0.2"/>
-        <circle cx="72" cy="330" r="4" fill="#58a6ff"/>
-        <text x="80" y="334" style="font-size: 10px; font-weight: 600; fill: #58a6ff">
-            Pascal
+        <rect x="60" y="320" width="80" height="20" fill="#3178c6" rx="10" opacity="0.2"/>
+        <circle cx="72" cy="330" r="4" fill="#3178c6"/>
+        <text x="80" y="334" style="font-size: 10px; font-weight: 600; fill: #3178c6">
+            TypeScript
         </text>
         
         <!-- Estatísticas -->
         <text x="160" y="334" class="label" style="font-size: 10px">
-            ⭐ 0 • 🔀 1 • 📝 0 commits
+            ⭐ 1 • 🔀 0 • 📝 112 commits
         </text>
         
         <!-- Topics -->
         <g>
     
-        <rect x="60" y="345" width="48" height="18" 
+        <rect x="60" y="345" width="120" height="18" 
               fill="#58a6ff" rx="9" opacity="0.15"/>
         <text x="66" y="357" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #delphi
+            #cassandra-database
         </text>
     
-        <rect x="114" y="345" width="36" height="18" 
+        <rect x="186" y="345" width="48" height="18" 
               fill="#58a6ff" rx="9" opacity="0.15"/>
-        <text x="120" y="357" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #json
+        <text x="192" y="357" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #docker
         </text>
     
-        <rect x="156" y="345" width="48" height="18" 
+        <rect x="240" y="345" width="48" height="18" 
               fill="#58a6ff" rx="9" opacity="0.15"/>
-        <text x="162" y="357" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
-            #pascal
+        <text x="246" y="357" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #golang
         </text>
     
     </g>
     
     <!-- Last updated -->
     <text x="490" y="357" text-anchor="end" class="label" style="font-size: 9px">
-        Updated 5mo ago
+        Updated 4mo ago
     </text>
     </g>
 </a>
@@ -444,7 +444,7 @@
     <g class="fade-in" style="animation-delay: 1s">
     <line x1="40" y1="510" x2="1160" y2="510" stroke="#30363d" stroke-width="1" opacity="0.3"/>
     <text x="60" y="535" style="font-size: 12px; font-weight: 600; fill: #8b949e">
-        📊 Collective Impact: ⭐ 3 stars • 📝 169 commits • 👥 7 contributors
+        📊 Collective Impact: ⭐ 4 stars • 📝 169 commits • 👥 7 contributors
     </text>
 </g>
 </svg>

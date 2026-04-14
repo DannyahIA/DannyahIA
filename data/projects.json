@@ -16,6 +16,26 @@
       "url": "https://github.com/DannyahIA/ai-daily-resume"
     },
     {
+      "name": "dynamic-json-converter",
+      "description": "Dynamic JSON to Object Pascal converter built from scratch using Regex. A practical solution for modernizing legacy Delphi applications.",
+      "language": "Pascal",
+      "stars": 1,
+      "forks": 1,
+      "commits": 0,
+      "prs": 0,
+      "contributors": 0,
+      "created": "2024-10-10",
+      "last_updated": "2026-04-14",
+      "topics": [
+        "delphi",
+        "json",
+        "pascal",
+        "pascal-language"
+      ],
+      "status": "active",
+      "url": "https://github.com/DannyahIA/dynamic-json-converter"
+    },
+    {
       "name": "nexus",
       "description": "Create a platform that integrates Real-Time Communication (Chat, Voice, Video) with Agile and Structured Task Management (Kanban, Lists, Status).",
       "language": "TypeScript",
@@ -38,26 +58,6 @@
       ],
       "status": "active",
       "url": "https://github.com/DannyahIA/nexus"
-    },
-    {
-      "name": "dynamic-json-converter",
-      "description": "Dynamic JSON to Object Pascal converter built from scratch using Regex. A practical solution for modernizing legacy Delphi applications.",
-      "language": "Pascal",
-      "stars": 0,
-      "forks": 1,
-      "commits": 0,
-      "prs": 0,
-      "contributors": 0,
-      "created": "2024-10-10",
-      "last_updated": "2025-11-12",
-      "topics": [
-        "delphi",
-        "json",
-        "pascal",
-        "pascal-language"
-      ],
-      "status": "active",
-      "url": "https://github.com/DannyahIA/dynamic-json-converter"
     },
     {
       "name": "alexa-gemini-integration-skill",
@@ -109,7 +109,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-14T07:58:29.231954",
+    "last_updated": "2026-04-14T13:59:51.568224",
     "total_repos": 17
   }
 }
