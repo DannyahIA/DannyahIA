@@ -2,7 +2,7 @@
   "monthly_snapshots": [
     {
       "month": "2026-05",
-      "total_commits": 160,
+      "total_commits": 152,
       "total_repos": 17,
       "total_prs": 6,
       "total_stars": 4,
@@ -21,7 +21,7 @@
         "JavaScript": 3,
         "Dockerfile": 4
       },
-      "recorded_at": "2026-05-13T08:53:05.977225"
+      "recorded_at": "2026-05-13T14:48:34.916398"
     },
     {
       "month": "2026-04",
