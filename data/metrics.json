@@ -1,8 +1,8 @@
 {
   "username": "DannyahIA",
   "name": "Daniel Tavares",
-  "total_commits": 134,
-  "total_repos": 17,
+  "total_commits": 136,
+  "total_repos": 18,
   "total_prs": 6,
   "total_issues": 1,
   "total_stars": 4,
@@ -17,27 +17,27 @@
     "Go": 5,
     "Python": 13,
     "GDScript": 2,
+    "JavaScript": 5,
     "TypeScript": 3,
     "PHP": 2,
     "Pascal": 2,
     "Kotlin": 2,
     "Shell": 6,
-    "CSS": 2,
-    "JavaScript": 3,
+    "CSS": 3,
     "Dockerfile": 4
   },
   "language_bytes": {
-    "Python": 34872269,
+    "Python": 34876365,
     "Shell": 138153,
     "Batchfile": 4360,
     "Pascal": 282523,
     "Go": 54270707,
     "Makefile": 4739,
     "TypeScript": 1711096,
-    "CSS": 27420,
+    "CSS": 29598,
     "Dockerfile": 11577,
-    "JavaScript": 21941,
-    "HTML": 668,
+    "JavaScript": 4539574,
+    "HTML": 1087,
     "PHP": 1094503,
     "Hack": 5906,
     "Kotlin": 264261,
@@ -45,5 +45,5 @@
     "GDScript": 26967011,
     "Svelte": 8876
   },
-  "last_updated": "2026-05-15T08:56:06.530802"
+  "last_updated": "2026-05-15T14:21:19.076616"
 }
