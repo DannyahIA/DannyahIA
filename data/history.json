@@ -2,9 +2,9 @@
   "monthly_snapshots": [
     {
       "month": "2026-06",
-      "total_commits": 88,
+      "total_commits": 73,
       "total_repos": 18,
-      "total_prs": 4,
+      "total_prs": 1,
       "total_stars": 4,
       "total_issues": 1,
       "languages": {
@@ -21,7 +21,7 @@
         "CSS": 3,
         "Dockerfile": 4
       },
-      "recorded_at": "2026-06-05T20:02:35.242087"
+      "recorded_at": "2026-06-06T03:57:35.940639"
     },
     {
       "month": "2026-05",
