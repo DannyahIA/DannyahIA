@@ -367,11 +367,23 @@
         <!-- Topics -->
         <g>
     
+        <rect x="60" y="480" width="48" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="66" y="492" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #config
+        </text>
+    
+        <rect x="114" y="480" width="90" height="18" 
+              fill="#58a6ff" rx="9" opacity="0.15"/>
+        <text x="120" y="492" style="font-size: 9px; font-weight: 600; fill: #58a6ff">
+            #github-config
+        </text>
+    
     </g>
     
     <!-- Last updated -->
     <text x="490" y="492" text-anchor="end" class="label" style="font-size: 9px">
-        Updated Yesterday
+        Updated Today
     </text>
     </g>
 </a>
