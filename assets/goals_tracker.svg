@@ -97,8 +97,8 @@
               style="font-size: 18px; font-weight: 700; fill: #f85149">65%</text>
         
         <!-- Informações adicionais -->
-        <text class="label" x="75" y="217" fill="#8b949e">
-            📅 7 days left • Priority: HIGH
+        <text class="label" x="75" y="217" fill="#d29922">
+            ⏰ 6 days left • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -141,7 +141,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="297" fill="#8b949e">
-            📅 191 days left • Priority: MEDIUM
+            📅 190 days left • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
@@ -184,7 +184,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="377" fill="#8b949e">
-            📅 69 days left • Priority: HIGH
+            📅 68 days left • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -227,7 +227,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="457" fill="#8b949e">
-            📅 99 days left • Priority: MEDIUM
+            📅 98 days left • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
