@@ -98,7 +98,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="217" fill="#d29922">
-            ⏰ 6 days left • Priority: HIGH
+            ⏰ 5 days left • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -141,7 +141,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="297" fill="#8b949e">
-            📅 190 days left • Priority: MEDIUM
+            📅 189 days left • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
@@ -184,7 +184,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="377" fill="#8b949e">
-            📅 68 days left • Priority: HIGH
+            📅 67 days left • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -227,7 +227,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="457" fill="#8b949e">
-            📅 98 days left • Priority: MEDIUM
+            📅 97 days left • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
