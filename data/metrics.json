@@ -16,9 +16,9 @@
     "ZenScript": 2,
     "Go": 5,
     "Python": 13,
-    "GDScript": 2,
-    "JavaScript": 5,
-    "TypeScript": 3,
+    "GDScript": 1,
+    "JavaScript": 4,
+    "TypeScript": 2,
     "PHP": 2,
     "Pascal": 2,
     "Kotlin": 2,
@@ -27,23 +27,22 @@
     "Dockerfile": 4
   },
   "language_bytes": {
-    "Python": 34958285,
+    "Python": 34959309,
     "Shell": 138153,
     "Batchfile": 4360,
     "Pascal": 282523,
     "Go": 54270707,
     "Makefile": 4739,
-    "TypeScript": 1711096,
+    "TypeScript": 1710877,
     "CSS": 29598,
     "Dockerfile": 11577,
-    "JavaScript": 4539574,
-    "HTML": 1087,
+    "JavaScript": 4532194,
+    "HTML": 801,
     "PHP": 1094503,
     "Hack": 5906,
     "Kotlin": 264261,
     "ZenScript": 355182658,
-    "GDScript": 26967011,
-    "Svelte": 8876
+    "GDScript": 26894336
   },
-  "last_updated": "2026-07-08T19:40:37.279630"
+  "last_updated": "2026-07-09T03:44:13.522396"
 }
