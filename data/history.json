@@ -11,9 +11,9 @@
         "ZenScript": 2,
         "Go": 5,
         "Python": 13,
-        "GDScript": 1,
-        "JavaScript": 4,
-        "TypeScript": 2,
+        "GDScript": 2,
+        "JavaScript": 5,
+        "TypeScript": 3,
         "PHP": 2,
         "Pascal": 2,
         "Kotlin": 2,
@@ -21,7 +21,7 @@
         "CSS": 3,
         "Dockerfile": 4
       },
-      "recorded_at": "2026-07-09T03:44:59.240721"
+      "recorded_at": "2026-07-09T09:49:35.145542"
     },
     {
       "month": "2026-06",
