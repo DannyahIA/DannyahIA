@@ -1,8 +1,18 @@
 {
-  "daily_stats": {},
+  "daily_stats": {
+    "2026-07": [
+      {
+        "date": "2026-07-14",
+        "commits": 2,
+        "prs": 0,
+        "issues": 0,
+        "reviews": 0
+      }
+    ]
+  },
   "metadata": {
-    "last_updated": "2026-07-14T13:56:18.107307",
-    "days_collected": 0,
+    "last_updated": "2026-07-14T19:27:41.871795",
+    "days_collected": 1,
     "period_start": "2026-07-01",
     "period_end": "2026-07-14"
   }
