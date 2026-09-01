@@ -1,26 +1,9 @@
 {
-  "daily_stats": {
-    "2026-08": [
-      {
-        "date": "2026-08-21",
-        "commits": 62,
-        "prs": 0,
-        "issues": 0,
-        "reviews": 0
-      },
-      {
-        "date": "2026-08-22",
-        "commits": 13,
-        "prs": 2,
-        "issues": 0,
-        "reviews": 0
-      }
-    ]
-  },
+  "daily_stats": {},
   "metadata": {
-    "last_updated": "2026-08-31T22:42:27.885643",
-    "days_collected": 2,
-    "period_start": "2026-08-01",
-    "period_end": "2026-08-31"
+    "last_updated": "2026-09-01T04:26:58.716011",
+    "days_collected": 0,
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-01"
   }
 }
