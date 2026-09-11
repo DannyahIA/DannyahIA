@@ -2,8 +2,8 @@
   "monthly_snapshots": [
     {
       "month": "2026-09",
-      "total_commits": 96,
-      "total_repos": 19,
+      "total_commits": 79,
+      "total_repos": 18,
       "total_prs": 2,
       "total_stars": 4,
       "total_issues": 1,
@@ -12,16 +12,16 @@
         "Go": 5,
         "Python": 13,
         "GDScript": 2,
-        "TypeScript": 7,
+        "TypeScript": 5,
         "PHP": 2,
         "Pascal": 2,
         "Kotlin": 2,
         "Shell": 6,
-        "CSS": 4,
-        "JavaScript": 5,
+        "CSS": 3,
+        "JavaScript": 4,
         "Dockerfile": 4
       },
-      "recorded_at": "2026-09-11T16:13:13.775008"
+      "recorded_at": "2026-09-11T20:46:52.026315"
     },
     {
       "month": "2026-08",
