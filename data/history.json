@@ -1,6 +1,29 @@
 {
   "monthly_snapshots": [
     {
+      "month": "2026-10",
+      "total_commits": 80,
+      "total_repos": 18,
+      "total_prs": 2,
+      "total_stars": 4,
+      "total_issues": 1,
+      "languages": {
+        "ZenScript": 2,
+        "Go": 5,
+        "Python": 13,
+        "GDScript": 2,
+        "TypeScript": 5,
+        "PHP": 2,
+        "Pascal": 2,
+        "Kotlin": 2,
+        "Shell": 6,
+        "CSS": 3,
+        "JavaScript": 4,
+        "Dockerfile": 4
+      },
+      "recorded_at": "2026-10-01T05:07:51.706758"
+    },
+    {
       "month": "2026-09",
       "total_commits": 80,
       "total_repos": 18,
