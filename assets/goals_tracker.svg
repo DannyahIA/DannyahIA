@@ -98,7 +98,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="217" fill="#f85149">
-            ⚠️ 100 days overdue • Priority: HIGH
+            ⚠️ 101 days overdue • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -141,7 +141,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="297" fill="#8b949e">
-            📅 84 days left • Priority: MEDIUM
+            📅 83 days left • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
@@ -184,7 +184,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="377" fill="#f85149">
-            ⚠️ 38 days overdue • Priority: HIGH
+            ⚠️ 39 days overdue • Priority: HIGH
         </text>
         
         <!-- Barra de progresso -->
@@ -227,7 +227,7 @@
         
         <!-- Informações adicionais -->
         <text class="label" x="75" y="457" fill="#f85149">
-            ⚠️ 8 days overdue • Priority: MEDIUM
+            ⚠️ 9 days overdue • Priority: MEDIUM
         </text>
         
         <!-- Barra de progresso -->
